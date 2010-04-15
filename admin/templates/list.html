@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<form action="" method="POST">
+Choose a province: 
+<select name="province">
+    <option value ="ALL">All</option>
+    {% for province in provinces %}
+    <option value ="{{ province.0 }}" {% ifequal province.0 PROVINCE %}selected="selected"{% endifequal %}>{{ province.1 }}</option>
+    {% endfor %}
+</select>
+Choose a status: 
+<select name="status">
+    <option value ="ALL">All</option>
+    {% for stat in status %}
+    <option value ="{{ stat.0 }}" {% ifequal stat.0 STATUS %}selected="selected"{% endifequal %}>{{ stat.1 }}</option>
+    {% endfor %}
+</select>
+<input type="submit" value="submit"/>
+</form>
+<div id="map" style="display: none; width: 500px; height: 300px"></div>
+
+{% if members %}
+<table cellspacing="0" style="text-align: right">
+<thead>
+    <tr>
+        <th>Status</th>
+        <th>Name</th>
+        <th>Date</th>
+        <th>Province</th>
+        <th>Town</th>
+        <th>Payments</th>
+        <th>Paid</th>
+        <th>Date</th>
+    </tr>
+</thead>
+<tbody>
+    {% for member in members %}
+    <tr class="{% cycle 'odd' 'even' %}">
+        <td>{{ member.status.get_status_display }}</td>
+        <td><b>{{ member }}</b></td>
+        <td>{{ member.created|date:"d/M/Y"}}</td>
+        <td>{{ member.address.get_province_display }}</td>
+        <td>{{ member.address.town }}</td>
+        {% for payment in member.payments %}
+        <td>{{ payment.amount }}</td>
+        <td>{{ payment.ok }}</td>
+        <td>{{ payment.date|date:"d/M/Y" }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</tbody>
+</table>
+{% endif %}
+{% endblock %} 

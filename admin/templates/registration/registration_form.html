@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block title %}Identifíquese{% endblock %}
+
+{% block content_header %}Identifíquese{% endblock %}
+
+{% block content %}
+
+<div class="column"></div>
+<div class="column" 
+     style="background: url(/site_media/images/register_{{ LANGUAGE_CODE }}.png) no-repeat;">    <div id="startleft">
+        <form method="post" action="/admin/accounts/register/">
+        {% if form.username.errors %}
+        <p class="error" title="{{ form.username.errors|join:", " }}">Nombre de usuario</p>
+        {% else %}
+        <p class="info">Nombre de usuario</p>
+        {% endif %}
+        <p>{{ form.username }}</p>
+        {% if form.email.errors %}
+        <p class="error" title="{{ form.email.errors|join:", " }}">Dirección de email</p>
+        {% else %}
+        <p class="info">Dirección de email</p>
+        {% endif %}
+        <p>{{ form.email }}</p>
+        {% if form.password1.errors %} 
+        <p class="error" title="{{ form.password1.errors|join:", " }}">Contraseña</p>
+        {% else %}
+        <p class="info">Contraseña</p>
+        {% endif %}
+        <p>{{ form.password1 }}</p>
+        {% if form.password2.errors %}
+        <p class="error" title="{{ form.password2.errors|join:", " }}">Contraseña (escríbala de nuevo)</p>
+        {% else %}
+        <p class="info">Contraseña (escríbala de nuevo)</p>
+        {% endif %}
+        <p>{{ form.password2 }}</p>
+        {% if form.tos.errors %}
+        <p class="error" title="{{ form.tos.errors|join:", " }}">{{ form.tos }} He leído y estoy de acuerdo con los <a href="/admin/about/tos/">Términos del Servicio</a></p>
+        {% else %}
+        <p class="info">{{ form.tos }} He leído y estoy de acuerdo con los <a href="/admin/about/tos/">Términos del Servicio</a></p>
+        {% endif %}
+        
+        <p class="warning">Rellene el formulario (todos los campos son requeridos), y su cuenta será creada. Recibirá un correo con instrucciones de cómo finalizar el registro.</p>
+        
+        <input class="submit" type="image" src="/site_media/images/submit.png" />
+        </form>    </div>
+</div>
+<div class="column"></div>
+{% endblock %}
+
+{% block sidebar %}
+<p>Rellene el formulario (todos los campos son requeridos), y su cuenta será creada; recibirá un correo con instrucciones de cómo finalizar el registro.</p>
+{% endblock %}

@@ -1,0 +1,209 @@
+2009-02-14  Pedro Gracia,,,  <lasarux@gmail.com>
+
+	* apps/registration/templates (deleted):
+	Deleted templates from apps directory.
+
+2009-02-14  Pedro Gracia <pedro.gracia@partidopirata.es>
+
+	* apps/registration/admin.py:
+	* apps/registration/forms.py:
+	* apps/registration/locale/ar/LC_MESSAGES/django.mo:
+	* apps/registration/locale/ar/LC_MESSAGES/django.po:
+	* apps/registration/locale/bg/LC_MESSAGES/django.mo:
+	* apps/registration/locale/bg/LC_MESSAGES/django.po:
+	* apps/registration/locale/de/LC_MESSAGES/django.mo:
+	* apps/registration/locale/de/LC_MESSAGES/django.po:
+	* apps/registration/locale/el/LC_MESSAGES/django.mo:
+	* apps/registration/locale/el/LC_MESSAGES/django.po:
+	* apps/registration/locale/en/LC_MESSAGES/django.mo:
+	* apps/registration/locale/en/LC_MESSAGES/django.po:
+	* apps/registration/locale/es/LC_MESSAGES/django.mo:
+	* apps/registration/locale/es/LC_MESSAGES/django.po:
+	* apps/registration/locale/es_AR/LC_MESSAGES/django.mo:
+	* apps/registration/locale/es_AR/LC_MESSAGES/django.po:
+	* apps/registration/locale/fr/LC_MESSAGES/django.mo:
+	* apps/registration/locale/fr/LC_MESSAGES/django.po:
+	* apps/registration/locale/he/LC_MESSAGES/django.mo:
+	* apps/registration/locale/he/LC_MESSAGES/django.po:
+	* apps/registration/locale/it/LC_MESSAGES/django.mo:
+	* apps/registration/locale/it/LC_MESSAGES/django.po:
+	* apps/registration/locale/ja/LC_MESSAGES/django.mo:
+	* apps/registration/locale/ja/LC_MESSAGES/django.po:
+	* apps/registration/locale/nl/LC_MESSAGES/django.mo:
+	* apps/registration/locale/nl/LC_MESSAGES/django.po:
+	* apps/registration/locale/pl/LC_MESSAGES/django.mo:
+	* apps/registration/locale/pl/LC_MESSAGES/django.po:
+	* apps/registration/locale/pt_BR/LC_MESSAGES/django.mo:
+	* apps/registration/locale/pt_BR/LC_MESSAGES/django.po:
+	* apps/registration/locale/ru/LC_MESSAGES/django.mo:
+	* apps/registration/locale/ru/LC_MESSAGES/django.po:
+	* apps/registration/locale/sr/LC_MESSAGES/django.mo:
+	* apps/registration/locale/sr/LC_MESSAGES/django.po:
+	* apps/registration/locale/sv/LC_MESSAGES/django.mo:
+	* apps/registration/locale/sv/LC_MESSAGES/django.po:
+	* apps/registration/locale/zh_CN/LC_MESSAGES/django.mo:
+	* apps/registration/locale/zh_CN/LC_MESSAGES/django.po:
+	* apps/registration/locale/zh_TW/LC_MESSAGES/django.mo:
+	* apps/registration/locale/zh_TW/LC_MESSAGES/django.po:
+	* apps/registration/management/__init__.py:
+	* apps/registration/management/commands/__init__.py:
+	* apps/registration/management/commands/cleanupregistration.py:
+	* apps/registration/models.py:
+	* apps/registration/signals.py:
+	* apps/registration/tests.py:
+	* apps/registration/urls.py:
+	* apps/registration/views.py:
+	* apps/registration/admin.py (added):
+	* apps/registration/locale (added):
+	* apps/registration/locale/sr (added):
+	* apps/registration/locale/sr/LC_MESSAGES (added):
+	* apps/registration/locale/sr/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/sr/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/ru (added):
+	* apps/registration/locale/ru/LC_MESSAGES (added):
+	* apps/registration/locale/ru/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/ru/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/sv (added):
+	* apps/registration/locale/sv/LC_MESSAGES (added):
+	* apps/registration/locale/sv/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/sv/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/de (added):
+	* apps/registration/locale/de/LC_MESSAGES (added):
+	* apps/registration/locale/de/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/de/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/bg (added):
+	* apps/registration/locale/bg/LC_MESSAGES (added):
+	* apps/registration/locale/bg/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/bg/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/es_AR (added):
+	* apps/registration/locale/es_AR/LC_MESSAGES (added):
+	* apps/registration/locale/es_AR/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/es_AR/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/ja (added):
+	* apps/registration/locale/ja/LC_MESSAGES (added):
+	* apps/registration/locale/ja/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/ja/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/zh_TW (added):
+	* apps/registration/locale/zh_TW/LC_MESSAGES (added):
+	* apps/registration/locale/zh_TW/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/zh_TW/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/he (added):
+	* apps/registration/locale/he/LC_MESSAGES (added):
+	* apps/registration/locale/he/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/he/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/el (added):
+	* apps/registration/locale/el/LC_MESSAGES (added):
+	* apps/registration/locale/el/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/el/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/zh_CN (added):
+	* apps/registration/locale/zh_CN/LC_MESSAGES (added):
+	* apps/registration/locale/zh_CN/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/zh_CN/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/ar (added):
+	* apps/registration/locale/ar/LC_MESSAGES (added):
+	* apps/registration/locale/ar/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/ar/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/en (added):
+	* apps/registration/locale/en/LC_MESSAGES (added):
+	* apps/registration/locale/en/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/en/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/pt_BR (added):
+	* apps/registration/locale/pt_BR/LC_MESSAGES (added):
+	* apps/registration/locale/pt_BR/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/pt_BR/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/fr (added):
+	* apps/registration/locale/fr/LC_MESSAGES (added):
+	* apps/registration/locale/fr/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/fr/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/es (added):
+	* apps/registration/locale/es/LC_MESSAGES (added):
+	* apps/registration/locale/es/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/es/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/nl (added):
+	* apps/registration/locale/nl/LC_MESSAGES (added):
+	* apps/registration/locale/nl/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/nl/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/pl (added):
+	* apps/registration/locale/pl/LC_MESSAGES (added):
+	* apps/registration/locale/pl/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/pl/LC_MESSAGES/django.mo (added):
+	* apps/registration/locale/it (added):
+	* apps/registration/locale/it/LC_MESSAGES (added):
+	* apps/registration/locale/it/LC_MESSAGES/django.po (added):
+	* apps/registration/locale/it/LC_MESSAGES/django.mo (added):
+	* apps/registration/signals.py (added):
+	* apps/registration/tests.py (added):
+	* apps/registration/management (added):
+	* apps/registration/management/commands (added):
+	* apps/registration/management/commands/__init__.py (added):
+	* apps/registration/management/commands/cleanupregistration.py (added):
+	* apps/registration/management/__init__.py (added):
+	* apps/registration/templates/registration (deleted):
+	* apps/registration/templates/registration/registration_form.html
+	  (deleted):
+	* apps/registration/templates/registration/activate.html (deleted):
+	* apps/registration/templates/registration/registration_complete.html
+	  (deleted):
+	* apps/registration/templates/registration/activation_email.txt
+	  (deleted):
+	* apps/registration/templates/registration/login.html (deleted):
+	* apps/registration/templates/registration/logout.html (deleted):
+	Changes in django-registration application.
+
+2009-02-14  Pedro Gracia <pedro.gracia@partidopirata.es>
+
+	* apps/members/models.py:
+	* apps/members/views.py:
+	* apps/poll/admin.py:
+	* apps/poll/models.py:
+	* apps/poll/views.py:
+	* locale/ca/LC_MESSAGES/django.po:
+	* locale/es/LC_MESSAGES/django.po:
+	* media/default.css:
+	* templates/member/dashboard.html:
+	* templates/registration/activate.html:
+	* templates/registration/activation_email.txt:
+	* templates/registration/activation_email_subject.txt:
+	* templates/registration/login.html:
+	* templates/registration/logout.html:
+	* templates/registration/registration_complete.html:
+	* templates/registration/registration_form.html:
+	* templates/registration/registration_form.html (added):
+	* templates/registration/activate.html (added):
+	* templates/registration/activation_email_subject.txt (added):
+	* templates/registration/registration_complete.html (added):
+	* templates/registration/activation_email.txt (added):
+	* templates/registration/logout.html (added):
+	Updates for django 1.0.2 and django-register 0.7.
+
+2008-10-31  Pedro Gracia <lasarux@gmail.com>
+
+	* apps/general/__init__.py:
+	* apps/general/models.py:
+	* apps/general/views.py:
+	* templates/list.html:
+	* templates/list.html (added):
+	* apps/general (added):
+	* apps/general/views.py (added):
+	* apps/general/__init__.py (added):
+	* apps/general/models.py (added):
+	Sync with home
+
+2008-10-31  Pedro Gracia <lasarux@gmail.com>
+
+	* Makefile:
+	* README:
+	* apps/members/models.py:
+	* apps/members/views.py:
+	* apps/registration/forms.py:
+	* apps/registration/models.py:
+	* artwork/mockup-site.svg:
+	* locale/ca/LC_MESSAGES/django.po:
+	* locale/es/LC_MESSAGES/django.po:
+	* media/default.css:
+	* settings.py:
+	* templates/base.html:
+	* templates/member/dashboard.html:
+	* templates/member/member.html:
+	* urls.py:
+

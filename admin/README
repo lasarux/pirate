@@ -1,0 +1,35 @@
+Panel de Control de Pirata
+
+Este panel de control es una aplicación django. Para su uso tiene que instalar
+previamente django: http://www.djangoproject.com
+
+Crear la base de datos: ./manage.py syncdb (o python manage.py syncdb)
+Para arrancar el panel: ./manage.py runserver (o también python manage.py runserver)
+Para conectar: http://localhost:8000
+Para entrar como administrador: http://localhost:8000/admin (admin/admin o lo
+que haya configurado)
+Para parar el panel: Ctrl+C (en la consola desde donde lo haya arrancado)
+
+
+==== NOTAS ====
+
+Para crear un entorno de desarrollo inicial configure en settings.py el uso de
+una base de datos SQLite y ejecute: python manage sync.db
+
+Las aplicaciones están en la carpeta apps/.
+Las imágenes en media/images.
+Los archivos de CSS en media/css.
+Las plantillas en template/
+La licencia de este software está en COPYING (GPLv3)
+Los trabajos originales de diseño en SVG se encuentran en artwork/
+
+Para cualquier duda puede ponerse en contacto con nosotros en el Departamento
+de Informática de PIRATA (DIP) en webmaster@partidopirata.es o a lasarux@gmail.com
+
+=== ULTIMA HORA [22.6.2009] ===
+
+Se han tenido que incorporar cambios para que el panel de control
+funcione en el dominio principal dentro del directorio admin/. En breve
+pondremos instrucciones para una configuración completa.
+
+LaSaRuX

@@ -1,0 +1,17 @@
+<!-- 404.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="column"></div>
+<div class="column">
+    <div id="startcenter"
+	style="background: url(/site_media/images/404.png) no-repeat;">	
+    </div>
+    <p>{% blocktrans %}There is a problem with your petition. Could you
+check the URL for errors?
+If the problem persists, please send a mail to
+<a href="mailto:webmaster@partidopirata.es">webmaster@partidopirata.es</a>
+{% endblocktrans %}</p>
+</div>
+{% endblock %}
+<!-- end 404.html -->

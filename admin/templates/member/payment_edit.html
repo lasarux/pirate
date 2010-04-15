@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+{% include "member/member.html" %}
+<div class="column">
+    {% if title %}<div id="first">{{ title }}</div>{% endif %}
+    <div id="edit">
+        <form method="post" action=".">
+        <p class="info">(*) Campos obligatorios</p>
+        {% for field in form %}
+        <p class="info">{{ field.label_tag }}{% if field.field.required %} (*){% endif %}</p>
+        <p>{{ field }}<br/></p>
+        {% if field.help_text %}<p>{{ field.help_text }}</p>{% endif %}
+        {% if field.errors %}<p class="myerrors">{{ field.errors }}</p>{% endif %}
+        {% endfor %}
+        <input class="submit" type="image" src="/site_media/images/submit.png" />
+        </form>
+    </div>
+</div>
+<div class="column">Dispone de tres modalidades para hacer efectivo el pago de su cuota: 
+    <ul>
+    <li>Trimestral: <strong>3€/trimestre</strong></li>
+    <li>Semestral (ahorro 2€): <strong>5€/semestre</strong></li>
+    <li>Anual (ahorro 3€): <strong>9€/año</strong></li>
+    </ul>
+    <p>Podrá efectuar el pago de la cuota 
+    <strong>una vez tenga confirmación </strong> 
+    de su condición de afiliado por parte de la Secretaría de la 
+    Junta Directiva Nacional.</p>
+</div>
+<br clear="all" />
+{% endblock %}

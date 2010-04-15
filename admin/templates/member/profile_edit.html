@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<!-- profile_edit.html -->
+{% include "member/member.html" %}
+<div class="column">
+    {% if step %}<div id="first">{{ title }}</div>{% endif %}
+    <div id="edit">
+        <form enctype="multipart/form-data" method="post" action=".">
+        <p class="info">(*) Campos obligatorios</p>
+        {% for field in form %}
+        <p class="info">{{ field.label_tag }}{% if field.field.required %} (*){% endif %}</p>
+        <p>{{ field }}<br/></p>
+        {% if field.help_text %}<p>{{ field.help_text }}</p>{% endif %}
+        {% if field.errors %}<p class="info">{{ field.errors }}</p>{% endif %}
+        {% endfor %}
+        <input class="submit" type="image" src="/site_media/images/submit.png" />
+        </form>
+    </div>
+</div>
+<div class="column">Es importante que recuerde que si opta por afiliarse dispone de
+tres modalidades para hacer efectivo el pago de su cuota: 
+    <ul>
+    <li>Trimestral: <strong>3€/trimestre</strong></li>
+    <li>Semestral (ahorro 2€): <strong>5€/semestre</strong></li>
+    <li>Anual (ahorro 3€): <strong>9€/año</strong></li>
+    </ul>
+    <p>En caso contrario, pulse <a href="/admin/accounts/profile">este enlace</a> para ir a la parte administrativa.</p>
+    <p>Recuerde que tiene que leer los <a href="http://www.partidopirata.es/wiki/Estatutos">
+    Estatutos del Partido Pirata</a> y aceptarlos antes de afiliarse. Si lo desea puede descargarlos
+    también en versión PDF.</p>
+    <div class="center">
+        <a href="http://www.partidopirata.es/w/images/0/02/Estatutos.pdf">
+        <img src="/site_media/images/statute_download.png" />
+        </a>
+    </div>
+</div>
+<br clear="all" />
+<!-- end profile_edit.html -->
+{% endblock %}

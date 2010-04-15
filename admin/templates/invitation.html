@@ -1,0 +1,28 @@
+<!-- invitation.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="column"></div>
+<div class="column">
+    <div id="startright"
+         style="background: url(/site_media/images/friends_{{ LANGUAGE_CODE }}.png) no-repeat;">
+    <form action="." method="post">
+    {% if form.name.errors %}
+    <p class="error" title="{{ form.name.errors|join:", " }}">Introduzca su nombre</p>
+    {% else %}
+    <p class="info">Introduzca su nombre</p>
+    {% endif %}
+    <p>{{ form.name }}</p>
+    {% if form.email.errors %}
+    <p class="error" title="{{ form.email.errors|join:", " }}">Dirección de email</p>
+    {% else %}
+    <p class="info">Dirección de email</p>
+    {% endif %}
+    <p>{{ form.email_invitation }}</p>
+    <input class="submit" value="login" type="image" src="/site_media/images/submit.png" />
+    </form>
+    </div>
+</div>
+<div class="column"></div>
+{% endblock %}
+<!-- end invitation.html -->

@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+{% include "member/member.html" %}
+<div class="column">
+    {% if title %}<div id="first">{{ title }}</div>{% endif %}
+    <div id="edit">
+        <form method="post" action=".">
+        <p class="info">(*) Campos obligatorios</p>
+        {% for field in form %}
+        <p class="info">{{ field.label_tag }}{% if field.field.required %} (*){% endif %}</p>
+        <p>{{ field }}<br/></p>
+        {% if field.help_text %}<p>{{ field.help_text }}</p>{% endif %}
+        {% if field.errors %}<p class="myerrors">{{ field.errors }}</p>{% endif %}
+        {% endfor %}
+        <input class="submit" type="image" src="/site_media/images/submit.png" />
+        </form>
+    </div>
+</div>
+<br clear="all" />
+{% endblock %}

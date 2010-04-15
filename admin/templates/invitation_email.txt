@@ -1,0 +1,6 @@
+{{ name }} ha considerado oportuno invitarle a conocer el Partido Pirata de España. Actualmente el Partido Pirata dispone de un sitio web traducional con información, foros y un wiki en la dirección http://www.partidopirata.es. Si lo desea puede afiliarse o darse de alta como simpatizante en la web administrativa: {{ site_url }}. En ella podrá participar a través de Internet en las actividades y votaciones que hagamos a través de la misma.
+
+Muchísimas gracias por su tiempo,
+
+El Partido Pirata de España
+

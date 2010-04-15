@@ -1,0 +1,67 @@
+<!-- member.html -->
+{% load i18n %}
+<div class="column">
+    <a href="/admin/members/join/">
+    {% if not status and not step %}
+    <div id="join">
+        <a href="/admin/members/join">
+        <img src="/site_media/images/rabbit_es.png" alt="Afiliarse" />
+        </a>
+    </div>
+    {% endif %}
+    </a>
+    {% if perms.members.can_admin %}
+    <div id="history">
+        <div style="float: right;">
+            <a href="/admin/revision/history/{{ member.id }}">
+            <img style="border:0px" src="/site_media/images/accessories-text-editor.png" />
+            </a>
+        </div>
+        <p class="first">Estado del miembro a lo largo del tiempo</p>
+        {% for stat in status %}
+        <p class="info">{{ stat.date|date:"d/m/Y H:i:s"}}</p>
+        <p>{{ stat.get_status_display }}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+    <div id="data">
+        <div style="float: right;">
+            <a href="/admin/members/profile/edit/">
+            <img style="border:0px" src="/site_media/images/accessories-text-editor.png" />
+            </a>
+        </div>
+        <p class="first">Tu ficha es importante. Mantenla al día.</p>
+        {% if member %}
+        <p class="info">{% trans "Username" %}</p>
+        <p class="data">{{ member.user }}</p>
+        <p class="info">{% trans "Email" %}</p>
+        <p class="data">{{ member.user.email }}</p>
+        <p class="info">{% trans "First Name" %}</p>
+        <p class="data">{{ member.firstname }}</p>
+        <p class="data">{{ member.lastname }}</p>
+        <p class="info">{% trans "Birthdate" %}</p>
+        <p class="data">{{ member.birthdate|date:"d/m/Y" }}</p>
+        <p class="info">{% trans "Country" %}</p>
+        <p class="data">{{ member.get_country_display }}</p>
+        <p class="info">{% trans "Document Type" %}</p>
+        <p class="data">{{ member.get_doc_type_display }}</p>
+        <p class="info">{% trans "Document" %}</p>
+        <p class="data">{{ member.doc }}</p>
+        <p class="info">{% trans "Nationality" %}</p>
+        <p class="data">{{ member.get_nationality_display }}</p>
+        {% if member.url %}<p class="info">{% trans "URL Blog" %}</p>
+        <p class="data">{{ member.url }}</p>{% endif %}
+        <p class="info">{% trans "Is visible?" %}</p>
+        {% if member.is_visible %}<p class="data">Sí</p>
+        {% else %}<p class="data">No</p>{% endif %}
+        {% endif %}
+        {% if member.doc_image %}
+        {% if revision %}
+        <p><a href="/admin/revision/{{ member.id }}/doc.jpeg"><img id="image" src="/admin/revision/{{ member.id }}/doc.jpeg" /></a></p>
+        {% else %}
+        <p><a href="/admin/members/doc.jpeg"><img id="image" src="/admin/members/doc.jpeg" /></a></p>
+        {% endif %}
+        {% endif %}
+    </div>
+</div>
+<!-- end member.html -->

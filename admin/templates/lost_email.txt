@@ -1,0 +1,11 @@
+{% load humanize %}
+Alguien, esperamos que usted, ha pedido cambiar la contraseña de la cuenta en {{ site_url }}. Si esto es correcto y desea cambiar la contraseña de su cuenta, siga el enlace o cópielo y péguelo en la barra de direcciones de su navegador web:
+
+{{ site_url }}members/lost/{{ password_key }}/
+
+Si no la ha pedido le rogamos que se ponga en contacto con nosotros en webmaster@partidopirata.es.
+
+Muchísimas gracias,
+
+El equipo de desarrollo de DIP
+

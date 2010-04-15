@@ -1,0 +1,162 @@
+/* 
+	The following information must not be removed:
+	Awesome Form v2 CSS
+	Written by: Paul Armstrong, Paul Armstrong Designs
+	Site: http://paularmstrongdesigns.com
+	Example & Documentation: http://paularmstrongdesigns.com/examples/css/awesome-form.html
+	Thu Jun 22 22:38:54 2006
+
+	Special thanks to Zach Johnson for helping and pushing me to make the changes.
+	Site: http://tech.no.logi.es (those aren't dots, they are diamonds)
+
+	This work is licensed under a Creative Commons Attribution-ShareAlike 2.5 License
+	http://creativecommons.org/licenses/by-sa/2.5/
+*/
+
+
+/*
+	In the following section, many of the values must be changed in reference to another.
+	Items labeled as 'subjective' are not dependent and may be easily changed as you see fit.
+*/
+form.awesome label { 
+	width: 100px; /* label width *//* label margin = (input left margin) - (label width) */
+	margin-right: 10px; /* label margin */
+}
+form.awesome label.long, form.awesome p.label {
+	margin-left: 20px; /* subjective */
+	width: 290px; /* (textarea width) + (label width) + (label margin) - (left margin) */
+}
+form.awesome label span {
+	color: #900; /* color of required asterisk */
+}
+form.awesome input, form.awesome textarea, form.awesome select {
+	margin-left: 110px; /* (label width) + (label margin) */
+	width: 200px; /* subjective */
+}
+form.awesome textarea { 
+	width: 300px; /* subjective, recommend: (3/2)(input width) */
+}
+form.awesome p.help {
+	margin-left: 110px; /* (label width) + (label margin) */
+	color: #2a2;
+}
+
+form.awesome p.error {
+	color: #f00;
+}
+
+form.awesome .checks label {
+	margin-left: 120px; /* (label width) + 2(label margin) */
+}
+form.awesome .checks input {
+	margin-left: 110px; /* (label width) + (label margin) */
+}
+
+/*
+	The following makes Internet Explorer 6.x play nicely. 
+	These fix the double float margin bug.
+*/
+* html form.awesome .checks input { 
+	margin-left: 5px;  /* (1/2)((label width) + (label margin)) */
+}
+* html form.awesome .checks label { 
+	margin-left: 110px; /* (label width) + (label margin) */
+	height: 1em; 
+}
+
+
+/*********************************************************************************
+	DO NOT EDIT BELOW THIS LINE
+*********************************************************************************/
+
+
+form.awesome {
+	margin: 0 0 1em;
+}
+
+form.awesome label {
+	float: left;
+	text-align: right;
+	padding-top: 0.2em;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+form.awesome label:after { 
+	content: ":"; 
+}
+
+form.awesome label.long {
+	float: none;
+	display: block;
+	text-align: left;
+}
+
+form.awesome label.long:after {
+	content: "";
+}
+
+form.awesome input, form.awesome textarea, form.awesome select {
+	display: block;
+	margin-bottom: -0.5em;
+}
+form.awesome select[multiple="multiple"] {
+	margin-left: 0px;
+}
+form.awesome br { 
+	clear: left;
+} 
+
+form.awesome input[type="radio"], form.awesome input[type="checkbox"], 
+form.awesome input[type="hidden"] { 
+	width: auto; 
+	height: 0.8em; 
+	border: 0;
+}
+
+form.awesome input[type="hidden"] {
+	display: none;
+}
+
+form.awesome p.desc {
+	display: block;
+	margin-top: -0.4em;
+	margin-bottom: 1em;
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+form.awesome .checks label {
+	float: none;
+	width: auto;
+	clear: none;
+	display: block;
+	text-align: left;
+	height: 2em;
+	padding-top: 0;
+	margin-bottom: -1em;
+}
+
+form.awesome .checks label:after { 
+	content: ""; 
+} 
+
+form.awesome .checks input {
+	float: left;
+	text-align: right;
+	margin-bottom: 0.5em;
+	width: auto;
+}
+/*
+	I found my own IE CSS display bug. I call it the "IE sucks, so it redraws the top border all over the fieldset like a jerk bug."
+*/
+* html form.awesome input, * html form.awesome textarea, * html form.awesome select,
+* html form.awesome .checks input, * html form.awesome .checks label, 
+* html form.awesome p.help {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+* html form.awesome fieldset br {
+	line-height: 0.5em;
+	font-size: 0.5em;
+}

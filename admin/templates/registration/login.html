@@ -1,0 +1,18 @@
+<!-- registration/login.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="column"></div>
+<div class="column">    <div id="startcenter"
+         style="background: url(/site_media/images/edit_{{ LANGUAGE_CODE }}.png) no-repeat;">
+    <form action="." method="post">
+    <p class="info">{% trans "User" %}</p>
+    <p><input type="text" name="username" /></p>
+    <p class="info">{% trans "Password" %}</p>
+    <p><input type="password" name="password" /></p>
+    <input class="submit" value="login" type="image" src="/site_media/images/submit.png" />
+    </form>    </div>
+</div>
+<div class="column"></div>
+{% endblock %}
+<!-- end registration/login.html -->

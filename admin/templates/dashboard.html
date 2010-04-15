@@ -1,0 +1,104 @@
+<!-- dashboard -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div id="toolbox">
+    <div id="logout">
+        <a href="/admin/accounts/logout/">
+        <img src="/site_media/images/system-log-out.png"/>
+        </a><br/>
+	{% if status.0 %}
+        <a href="/members/contact/new/">
+        <img src="/site_media/images/address-book-new.png"/>
+        </a>
+	{% endif %}
+    </div>
+</div>
+
+{% include "member/member.html" %}
+
+<div class="column">
+    <div class="address">
+        <div style="float: right;">
+            <a href="/admin/members/address/edit/">
+            <img style="border:0px" src="/site_media/images/accessories-text-editor.png" />
+            </a>
+        </div>        <p class="first">Estamos preparando actividades en las que es importante estar situado.</p>
+        {% for address in addresses %}
+        <p class="info">{% trans "Address" %}</p>
+        <p class="data">{{ address.get_via_display }}</p>
+        <p class="data">{{ address.address }}, {{ address.number }}</p>
+        {% if address.stair %}<p class="info">{% trans "Stair" %}</p>
+        <p class="data">{{ address.stair }}</p>{% endif %}
+        {% if address.flat %}<p class="info">{% trans "Flat" %}</p>
+        <p>{{ address.flat }}</p>{% endif %}
+        {% if address.door %}<p class="info">{% trans "Door" %}</p>
+        <p>{{ address.door }}</p>{% endif %}
+        {% if address.province %}<p class="info">{% trans "Province" %}</p>
+        <p>{{ address.get_province_display }}</p>{% endif %}
+        {% if address.town %}<p class="info">{% trans "Town/City" %}</p>
+        <p>{{ address.town }}</p>{% endif %}
+        {% if address.zip %}<p class="info">{% trans "Zip Code" %}</p>
+        <p>{{ address.zip }}</p>{% endif %}
+        <p class="info">{% trans "Is default?" %}</p>
+        {% if address.default %}<p>Sí</p>
+        {% else %}<p class="data">No</p>
+        {% endif %}
+        <hruler />
+        {% endfor %}
+    </div>
+    
+    {% if perms.members.can_admin %}
+    {% if new_members %}
+    <div class="members">
+        <p class="first">Compruebe los datos de los nuevos afiliados</p>
+        {% for new in new_members %}
+        <p><a href="/admin/revision/dashboard/{{ new.id }}">{{ new.lastname }}, {{ new.firstname }}</a></p>
+        <p class="info">{{ new.date|date:"d/m/Y H:i:s"}}</p>
+        {% endfor %}
+    </div>
+    {% endif %}
+    {% endif %}
+    
+    <div class="services">
+        <p class="first">En preparación...</p>
+    </div></div>
+
+<div class="column">    <div class="contact">
+        <p class="first">Pon aquí la mejor forma de contactar contigo.</p>
+        {% for contact in contacts %}
+        <div style="float: right;">
+            <a href="/admin/members/contact/edit/{{ forloop.counter }}">
+            <img style="border:0px" src="/site_media/images/accessories-text-editor.png" />
+            </a>
+            {% if not forloop.first %}
+            <br/>
+            <a href="/admin/members/contact/delete/{{ forloop.counter }}">
+            <img style="border:0px" src="/site_media/images/user-trash.png" />
+            </a>
+            {% else %}
+            <br/>
+            <a href="/admin/members/contact/new/">
+            <img style="border:0px" src="/site_media/images/document-new.png" />
+            </a>
+            {% endif %}
+        </div>        
+        <p class="info">{% trans "Type" %}</p>
+        <p class="data">{{ contact.get_type_display }}</p>
+        <p class="info">{% trans "Account" %}</p>
+        <p class="data">{{ contact.account }}</p>
+        <p class="info">{% trans "Is default?" %}</p>
+        {% if contact.default %}<p>Sí</p>
+        {% else %}<p class="data">No</p>{% endif %}
+        {% if not forloop.last %}<hr/>{% endif %}
+        {% endfor %}    </div>
+    
+    <div id="polls" style="height: 36px;">
+        <p class="first">En preparación...</p>
+    </div>
+    <div id="payments">
+        <p class="first">En preparación...</p>
+    </div>
+</div>
+	<br clear="all" /><!-- without this little <br /> NS6 and IE5PC do not stretch the frame div down to encopass the content DIVs -->{% endblock %}
+<!-- end dashboard.html -->

@@ -1,0 +1,31 @@
+<!-- profile_edit.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+{% include "member/member.html" %}
+
+<div class="column">
+    <div id="edit">
+        <form enctype="multipart/form-data" method="post" action=".">
+        {% for field in form %}
+        <p class="info">{{ field.label_tag }}</p>
+        <p>{{ field }}<br/></p>
+        <!-- {% if field.help_text %}<p>{{ field.help_text }}</p>{% endif %} -->
+        {% if field.errors %}<p class="info">{{ field.errors }}</p>{% endif %}
+        {% endfor %}
+        <p><img src="{{ member.get_doc_image_url }}" width="100"/></p>
+        <input class="submit" type="image" src="/site_media/images/submit.png" />
+        </form>
+    </div>
+</div>
+<div class="column">Es importante que recuerde que si opta por afiliarse dispone de
+tres modalidades para hacer efectivo el pago de su cuota: 
+<ul>
+<li>Trimestral (<strong>12€/año</strong>)</li>
+<li>Semestral (<strong>10€/año)</strong></li>
+<li>Anual (<strong>9€/año)</strong></li>
+</ul>
+</div>
+<br clear="all" />
+{% endblock %}
+<!-- end profile_edit.html -->

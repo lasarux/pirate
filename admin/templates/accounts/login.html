@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+    <div id="emptyleft"></div>
+	<div id="contentcenter">	<p>Mantén tus datos al día, participa en las votaciones y un largo etcétera.</p>
+	<form action="/admin/accounts/login/" method="post">
+	<p class="info">Usuario</p>
+	<p><input type="text" name="username" /></p>
+	<p class="info">Contraseña</p>
+	<p><input type="password" name="password" /></p>
+	<input class="submit" type="image" src="/site_media/images/submit.png" />
+	<input type="hidden" name="next" value="{{ next }}" />
+	</form>	</div>
+	<div id="emptyright"></div>
+{% endblock %}

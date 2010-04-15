@@ -1,0 +1,20 @@
+<!-- lost.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="column"></div>
+<div class="column">
+    <div id="startcenter"
+         style="background: url(/site_media/images/lost_{{ LANGUAGE_CODE }}.png) no-repeat;">
+    <p>{% blocktrans %}If you don't remember your password, please enter 
+your username in order to send you a mail with instructions about to 
+change it.{% endblocktrans %}</p>
+    <form action="." method="post">
+    <p class="info">{% trans "User" %}</p>
+    <p><input type="text" name="username" /></p>
+    <input class="submit" value="login" type="image" src="/site_media/images/submit.png" />
+    </form>
+    </div>
+</div>
+{% endblock %}
+<!-- end lost.html -->

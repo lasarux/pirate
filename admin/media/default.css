@@ -1,0 +1,253 @@
+body {
+    text-align:center;
+    background-color: black;
+    font-family:trebuchet ms, helvetica, arial;
+    color: #ccc;
+    vertical-align: middle;
+}
+
+table {
+    margin-top: 16px;
+}
+
+input {
+}
+
+thead {
+    background: url("/site_media/images/stripe-header.png") repeat-y;
+    text-align: center;
+    height: 30px;
+}
+
+.even {
+    background: url("/site_media/images/stripe-row.png") repeat-y;
+}
+
+td {
+    padding: 4px;
+    vertical-align: top;
+}
+
+#w3c, #i18n{
+    float: right;
+}
+
+img {
+    border: 0;
+}
+
+#id_comment {
+    width: 220px;
+}
+
+input {
+   margin-bottom: 0.5em;
+}
+
+.required {
+}
+
+a {
+    color: white;
+    text-style: none;
+}
+
+strong {
+    color: yellow;
+}
+
+#id_comment {
+    width: 220px;
+}
+
+#image {
+    border: 1px solid white;
+    padding: 1px;
+    width: 180px;
+}
+#frame {
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px;
+    text-align:left;
+    width: 830px;
+}
+
+.centered {
+width : 70%;
+margin-right : auto;
+margin-left : auto;
+margin-top : 30px;
+padding : 5px;
+text-align : justify;
+}
+
+#startcenter {
+    width:211px;
+    padding:9em 1em 1em 1em;
+//    background: url(/site_media/images/edit.png) no-repeat;
+}
+
+#startleft {
+    width:211px;
+    padding:9em 1em 1em 1em;
+//    background: url(/site_media/images/register.png) no-repeat;
+}
+
+#startright {
+    width:211px;
+    padding:9em 1em 1em 1em;
+//    background: url(/site_media/images/friends.png) no-repeat;
+}   
+
+#join {
+    margin-top: -21px;
+    margin-bottom: 10px;
+}
+
+#history {
+    width:211px;
+    padding:0.5em 1em 1em 1em;
+    background: url(/site_media/images/history_es.png) no-repeat;
+}
+
+#data {
+    width:211px;
+    margin-top: -4px;
+    padding:0.5em 1em 1em 1em;
+    background: url(/site_media/images/data_es.png) no-repeat;
+}
+
+.center {
+    display: block;
+    margin: 20px 70px; /*TODO: change to relative */
+}
+
+.column {
+    width: 211px;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+}   
+
+.address {
+    width:211px;
+    padding:0.5em 1em 1em 1em;
+    background: url(/site_media/images/address_es.png) no-repeat;
+    overflow: hidden;
+}
+
+.services {
+    width:211px;
+    padding:0.5em 1em 1em 1em;
+    height: 96px;
+    background: url(/site_media/images/services_es.png) no-repeat;
+}
+
+.members {
+    width:211px;
+    padding:0.5em 1em 1em 1em;
+    background: url(/site_media/images/members_es.png) no-repeat;
+    overflow: hidden;
+}
+
+#polls {
+    width:211px;
+    padding:0.5em 1em 1em 1em;
+    background: url(/site_media/images/polls_es.png) no-repeat;
+    overflow: hidden;
+}
+
+#payments {
+    width:211px;
+    margin-top: -4px;
+    padding:0.5em 1em 1em 1em;
+    background: url(/site_media/images/payments_es.png) no-repeat;
+    overflow: hidden;
+}
+
+.contact {
+    width:211px;
+    padding:0.5em 1em 1em 1em;
+    background: url(/site_media/images/contact_es.png) no-repeat;
+    overflow: hidden;
+}   
+
+#empty {
+    width:211px;
+    margin:10px;
+    padding:9em 1em 1em 1em;
+}   
+
+.first {
+    padding-top:2.5em;
+}
+    
+p,h1,pre {
+    margin:10px;
+}
+    
+h1 {
+    font-size:1.5em;
+    padding-top:10px;
+}
+    
+#contentheader h1 {
+    font-size:14px;
+    padding:10px;
+    margin:0px;
+    }
+
+#logout {
+    padding:12px;
+    float: right;
+    border:0px;
+}
+
+#info_image {
+    margin-top: 2em;
+}
+
+#love {
+   display: block;
+   border:0px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 1em;
+   width: 440px;
+}
+
+#edit {
+    display: block;
+    width: 211px;
+}
+
+.info {
+    font-size: .7em;
+    color: #efc300;
+    padding-top: 0.2em;
+}
+
+.error {
+    font-size: .7em;
+    color: #ff0000;
+    padding-top: 0.2em;
+}
+
+.warning {
+    font-size: .7em;
+    color: #999;
+    padding-top: 0.2em;
+}
+
+.submit {
+    display: block;
+    float: right;
+    width: 122px;
+    height: 59px;
+}
+
+.admin {
+    clear: both;
+}

@@ -1,0 +1,13 @@
+<!-- lost_done.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% block content %}
+<div class="column"></div>
+<div class="column">
+    <div id="startcenter"
+         style="background: url(/site_media/images/lost_{{ LANGUAGE_CODE }}.png) no-repeat;">
+    <p>{% blocktrans %}Your password has been updated correctly. You can <a href="/admin/">login</a> now.{% endblocktrans %}</p>
+    </div>
+</div>
+{% endblock %}
+<!-- end lost_done.html -->

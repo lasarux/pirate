@@ -1,0 +1,7 @@
+{% load humanize %}
+Alguien, esperamos que usted, ha pedido registrar una nueva cuenta en {{ site.domain }} usando esta dirección de correo electrónico. Si esto es correcto y desea activar y usar esa cuenta, siga el enlace o cópielo y péguelo en la barra de direcciones de su navegador web:
+
+{{ site }}/accounts/activate/{{ activation_key }}/
+
+Si no la ha pedido, no es necesario que haga nada. No recibirá ningún correo más de nosotros, y la cuenta expirará automáticamente dentro de {{ expiration_days|apnumber }} días.
+

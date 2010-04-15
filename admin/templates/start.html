@@ -1,0 +1,64 @@
+<!-- begin start.html -->
+{% extends "base.html" %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block content %}
+<div class="column">
+    <div id="startleft" 
+         style="background: url(/site_media/images/register_{{ LANGUAGE_CODE }}.png) no-repeat;">
+        <p>{% trans "START_LEFT_COLUMN_INFO" %}</p>
+        <form method="post" action="/admin/accounts/register/">
+        <p class="info">{% trans "Username" %}{% if form_register.username.errors %} <span class="error">{{ form_register.username.errors|join:", " }}</span>{% endif %}</p>
+        <p>{{ form_register.username }}</p>
+        <p class="info">{% trans "Email" %}{% if form_register.email.errors %} <span class="error">{{ form_register.email.errors|join:", " }}</span>{% endif %}</p>
+        <p>{{ form_register.email }}</p>
+        <p class="info">{% trans "Password" %}{% if form_register.password1.errors %} <span class="error">{{ form_register.password2.errors|join:", " }}</span>{% endif %}</p>
+        <p>{{ form_register.password1 }}</p>
+        <p class="info">{% trans "Password (write it again)" %}{% if form_register.password2.errors %} <span class="error">{{ form_register.password2.errors|join:", " }}</span>{% endif %}</p>
+        <p>{{ form_register.password2 }}</p>
+        <p class="info">{{ form_register.tos }} {% blocktrans %}I read and accept the <a href="/admin/about/tos/">Terms of Service</a>.{% endblocktrans %} {% if form_register.tos.errors %}&nbsp;<span class="error">{{ form_register.tos.errors|join:", " }}</span>{% endif %}</p>
+        <p class="warning">{% trans "Fill the form (all fields are required) and your account will be created. You'll recive a email with instructions about how to finish the register. If you detect any error you can contact us at" %} <a href="mailto:webmaster@partidopirata.es">webmaster@partidopirata.es</a>.</p>
+        <p><input class="submit" type="image" src="/site_media/images/submit.png" /></p>
+        </form>
+    </div>
+</div>
+<div class="column">
+    <div id="startcenter"
+         style="background: url(/site_media/images/edit_{{ LANGUAGE_CODE }}.png) no-repeat;">
+    <p>{% trans "START_CENTER_COLUMN_INFO" %}</p>
+    <form action="/admin/" method="post">
+    <p class="info">{% trans "User" %}</p>
+    <p><input type="text" name="username" /></p>
+    <p class="info">{% trans "Password" %}</p>
+    <p><input type="password" name="password" /></p>
+    <p class="info">{% blocktrans %}Use the link to <a href="/admin/members/lost">lost password</a> if you can't remember it.{% endblocktrans %}</p>
+    <p><input class="submit" value="login" type="image" src="/site_media/images/submit.png" /></p>
+    </form>
+    </div>
+</div>
+<div class="column">
+    <div id="startright"
+         style="background: url(/site_media/images/friends_{{ LANGUAGE_CODE }}.png) no-repeat;">
+    <p>{% trans "START_RIGHT_COLUMN_INFO" %}</p>
+    <form action="/admin/invitation/" method="post">
+    <p class="info">{% trans "Enter your name" %}</p>
+    <p>{{ form_invitation.name }}</p>
+    <p class="info">{% trans "Enter your friend email" %}</p>
+    <p>{{ form_invitation.email_invitation }}</p>
+    <p><input class="submit" type="image" src="/site_media/images/submit.png" /></p>
+    </form>
+    </div>
+</div>
+    <br style="clear:both" /><!-- without this little <br /> NS6 and IE5PC do not stretch the frame div down to encopass the content DIVs -->
+    <p id="w3c">
+    <a href="http://www.djangoproject.com/">
+    <img src="/site_media/images/djangomade124x25.gif" 
+         alt="Made with Django." title="Made with Django." />
+    </a>
+    <a href="http://validator.w3.org/check?uri=referer">
+    <img src="/site_media/images/valid-xhtml10-blue.png"
+         alt="Valid XHTML 1.0 Strict" height="31" width="88" />
+    </a>
+    </p>
+{% endblock %}
+<!-- end start.html -->

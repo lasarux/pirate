@@ -1,0 +1,546 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-06-05 23:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: apps/general/models.py:8 apps/general/models.py:26
+#, fuzzy
+msgid "Code"
+msgstr "CP"
+
+#: apps/general/models.py:9 apps/general/models.py:27
+#, fuzzy
+msgid "Name"
+msgstr "Cognoms"
+
+#: apps/general/models.py:28
+msgid "Men"
+msgstr ""
+
+#: apps/general/models.py:29
+#, fuzzy
+msgid "Women"
+msgstr "Comentari"
+
+#: apps/members/choices.py:24
+msgid "PayPal"
+msgstr ""
+
+#: apps/members/choices.py:25
+msgid "Direct"
+msgstr "Directe"
+
+#: apps/members/choices.py:26
+msgid "Transfer"
+msgstr "Transferència"
+
+#: apps/members/choices.py:36 apps/members/choices.py:41
+msgid "No"
+msgstr ""
+
+#: apps/members/choices.py:37 apps/members/choices.py:42
+msgid "Yes"
+msgstr "Sí"
+
+#: apps/members/forms.py:70 apps/members/forms.py:82 templates/member.html:28
+#: templates/start.html:13 templates/member/member.html:37
+msgid "Email"
+msgstr "Correu electrònic"
+
+#: apps/members/forms.py:75
+msgid "You must enter a valid email"
+msgstr "Has d'introduir un correu electrònic vàlid"
+
+#: apps/members/forms.py:81 apps/members/forms.py:98 templates/member.html:26
+#: templates/start.html:11 templates/member/member.html:35
+msgid "Username"
+msgstr "Nom d'usuari"
+
+#: apps/members/forms.py:83 templates/start.html:15 templates/start.html.py:32
+#: templates/registration/login.html:12
+msgid "Password"
+msgstr "Contrasenya"
+
+#: apps/members/forms.py:84
+msgid "Repeat the password"
+msgstr ""
+
+#: apps/members/forms.py:88
+msgid "Passwords are not the same"
+msgstr ""
+
+#: apps/members/models.py:28 apps/members/models.py:234 templates/lost.html:13
+#: templates/start.html:30 templates/registration/login.html:10
+msgid "User"
+msgstr "Usuari"
+
+#: apps/members/models.py:29
+msgid "Created"
+msgstr "Creat"
+
+#: apps/members/models.py:30
+msgid "Gender"
+msgstr "Sexe"
+
+#: apps/members/models.py:32
+msgid "Status in web"
+msgstr "Estat a la web"
+
+#: apps/members/models.py:34
+msgid "From of address"
+msgstr "Tractamient"
+
+#: apps/members/models.py:36 templates/member.html:30
+#: templates/member/member.html:39
+msgid "First Name"
+msgstr "Nom"
+
+#: apps/members/models.py:37
+msgid "Last Name"
+msgstr "Cognoms"
+
+#: apps/members/models.py:38
+msgid "Birth Date"
+msgstr "Data de Naixement"
+
+#: apps/members/models.py:39
+msgid "Format: YYYY-mm-dd"
+msgstr ""
+
+#: apps/members/models.py:40 templates/member.html:35
+#: templates/member/member.html:44
+msgid "Country"
+msgstr "País"
+
+#: apps/members/models.py:42 templates/member.html:37
+#: templates/member/member.html:46
+msgid "Document Type"
+msgstr "Tipus de document"
+
+#: apps/members/models.py:44 templates/member.html:39
+#: templates/member/member.html:48
+msgid "Document"
+msgstr "DNI/NIE"
+
+#: apps/members/models.py:46 templates/member.html:41
+#: templates/member/member.html:50
+msgid "Nationality"
+msgstr "Nacionalitat"
+
+#: apps/members/models.py:48
+msgid "Security Phrase"
+msgstr "Frase de seguretat"
+
+#: apps/members/models.py:50
+msgid "Security Response"
+msgstr "Resposta de seguretat"
+
+#: apps/members/models.py:51 templates/member.html:43
+#: templates/member/member.html:52
+msgid "URL Blog"
+msgstr "Adreça del teu blog"
+
+#: apps/members/models.py:52 templates/member.html:45
+#: templates/member/member.html:54
+msgid "Is visible?"
+msgstr "¿Soc visible?"
+
+#: apps/members/models.py:54
+msgid "Accept statutes?"
+msgstr "¿Acceptes els estatuts?"
+
+#: apps/members/models.py:56
+msgid "Document Image"
+msgstr "Imatge del document"
+
+#: apps/members/models.py:57
+msgid "Remember to include both sides of your Document"
+msgstr "Recorda incluir ambdues cares del DNI"
+
+#: apps/members/models.py:121 apps/members/models.py:138
+#: apps/members/models.py:236 apps/poll/models.py:21 apps/poll/models.py:38
+#: apps/poll/models.py:51 apps/poll/models.py:58 apps/poll/models.py:63
+#: apps/poll/models.py:74 apps/poll/models.py:79
+#: templates/member/dashboard.html:119
+msgid "Date"
+msgstr "Data"
+
+#: apps/members/models.py:123 apps/poll/models.py:25 apps/poll/models.py:39
+#: apps/poll/models.py:61 apps/poll/models.py:77
+msgid "Status"
+msgstr "Estat"
+
+#: apps/members/models.py:124 apps/members/models.py:146
+#: templates/member/dashboard.html:127
+msgid "Comment"
+msgstr "Comentari"
+
+#: apps/members/models.py:140 apps/members/models.py:202
+#: templates/dashboard.html:91 templates/member/dashboard.html:91
+#: templates/member/dashboard.html:121
+msgid "Type"
+msgstr "Tipus"
+
+#: apps/members/models.py:142 templates/member/dashboard.html:123
+msgid "Method"
+msgstr "Mètode"
+
+#: apps/members/models.py:144 templates/member/dashboard.html:125
+msgid "Amount"
+msgstr "Quantitat"
+
+#: apps/members/models.py:148
+#, fuzzy
+msgid "Current Account"
+msgstr "Compte"
+
+#: apps/members/models.py:150
+msgid "OK?"
+msgstr "¿OK?"
+
+#: apps/members/models.py:163
+msgid "Via"
+msgstr "Via"
+
+#: apps/members/models.py:165 templates/dashboard.html:30
+#: templates/member/dashboard.html:29
+msgid "Address"
+msgstr "Adreça"
+
+#: apps/members/models.py:166
+msgid "Number"
+msgstr "Número"
+
+#: apps/members/models.py:167
+msgid "Bis"
+msgstr ""
+
+#: apps/members/models.py:169
+msgid "Km"
+msgstr ""
+
+#: apps/members/models.py:171
+msgid "Hm"
+msgstr ""
+
+#: apps/members/models.py:173 templates/dashboard.html:33
+#: templates/member/dashboard.html:32
+msgid "Stair"
+msgstr "Escala"
+
+#: apps/members/models.py:175 templates/dashboard.html:35
+#: templates/member/dashboard.html:34
+msgid "Flat"
+msgstr "Pis"
+
+#: apps/members/models.py:177 templates/dashboard.html:37
+#: templates/member/dashboard.html:36
+msgid "Door"
+msgstr "Porta"
+
+#: apps/members/models.py:179 templates/dashboard.html:39
+#: templates/member/dashboard.html:38
+msgid "Province"
+msgstr "Província"
+
+#: apps/members/models.py:181 templates/dashboard.html:41
+#: templates/member/dashboard.html:40
+msgid "Town/City"
+msgstr "Poble/Ciutat"
+
+#: apps/members/models.py:184
+msgid "Reference/Near of"
+msgstr "Referència/Prop de"
+
+#: apps/members/models.py:186 templates/dashboard.html:43
+#: templates/member/dashboard.html:42
+msgid "Zip Code"
+msgstr "CP"
+
+#: apps/members/models.py:192 apps/members/models.py:205
+#: templates/dashboard.html:45 templates/dashboard.html.py:95
+#: templates/member/dashboard.html:44 templates/member/dashboard.html.py:95
+msgid "Is default?"
+msgstr "¿Per defecte?"
+
+#: apps/members/models.py:201
+msgid "Member"
+msgstr "Membre"
+
+#: apps/members/models.py:204 templates/dashboard.html:93
+#: templates/member/dashboard.html:93
+msgid "Account"
+msgstr "Compte"
+
+#: apps/members/models.py:224
+#, python-format
+msgid "Change password at %s"
+msgstr ""
+
+#: apps/members/models.py:235
+#, fuzzy
+msgid "Password key"
+msgstr "Contrasenya"
+
+#: apps/members/models.py:245
+#, python-format
+msgid "Change password for %s"
+msgstr ""
+
+#: apps/members/views.py:255
+msgid "Identity. Step 1/3"
+msgstr "Identitat. Pas 1 de 3"
+
+#: apps/members/views.py:294
+msgid "Address. Step 2/3"
+msgstr "Adreça. Pas 2 de 3"
+
+#: apps/members/views.py:328
+msgid "Instalment. Step 3/3"
+msgstr "Quota. Pas 3 de 3"
+
+#: apps/poll/choices.py:5
+msgid "On"
+msgstr ""
+
+#: apps/poll/choices.py:6
+msgid "Off"
+msgstr ""
+
+#: apps/poll/choices.py:7
+msgid "Suspend"
+msgstr ""
+
+#: apps/poll/choices.py:11
+msgid "Accepted"
+msgstr ""
+
+#: apps/poll/choices.py:12
+msgid "Denied"
+msgstr ""
+
+#: apps/poll/choices.py:16
+msgid "Spanish"
+msgstr "Español"
+
+#: apps/poll/choices.py:17
+#, fuzzy
+msgid "Catalan"
+msgstr "Català"
+
+#: apps/poll/models.py:8
+msgid "Language"
+msgstr ""
+
+#: apps/poll/models.py:10
+msgid "Translation"
+msgstr ""
+
+#: apps/poll/models.py:18
+msgid "Question"
+msgstr ""
+
+#: apps/poll/models.py:19
+msgid "Slug"
+msgstr ""
+
+#: apps/poll/models.py:20
+msgid "URL"
+msgstr ""
+
+#: apps/poll/models.py:22
+msgid "Winner"
+msgstr ""
+
+#: apps/poll/models.py:23 apps/poll/models.py:59 apps/poll/models.py:75
+msgid "Date start"
+msgstr ""
+
+#: apps/poll/models.py:24 apps/poll/models.py:60 apps/poll/models.py:76
+#, fuzzy
+msgid "Date end"
+msgstr "Data"
+
+#: apps/poll/models.py:37
+msgid "Item"
+msgstr ""
+
+#: apps/registration/forms.py:36
+#, fuzzy
+msgid "username"
+msgstr "Nom d'usuari"
+
+#: apps/registration/forms.py:39
+#, fuzzy
+msgid "email address"
+msgstr "Tractamient"
+
+#: apps/registration/forms.py:41
+#, fuzzy
+msgid "password"
+msgstr "Contrasenya"
+
+#: apps/registration/forms.py:43
+#, fuzzy
+msgid "password (again)"
+msgstr "Contrasenya (escriu-la de nou)"
+
+#: apps/registration/forms.py:55
+msgid "This username is already taken. Please choose another."
+msgstr ""
+
+#: apps/registration/forms.py:67
+#, fuzzy
+msgid "You must type the same password each time"
+msgstr "Has d'introduir un correu electrònic vàlid"
+
+#: apps/registration/forms.py:90
+#, fuzzy
+msgid "I have read and agree to the Terms of Service"
+msgstr ""
+"He llegit i estic d'acord amb els <a href=\"/about/tos/\">Termes del Servei</"
+"a>."
+
+#: apps/registration/forms.py:101 apps/registration/forms.py:118
+msgid ""
+"This email address is already in use. Please supply a different email "
+"address."
+msgstr ""
+
+#: apps/registration/forms.py:144
+msgid ""
+"Registration using free email addresses is prohibited. Please supply a "
+"different email address."
+msgstr ""
+
+#: apps/registration/models.py:218
+#, fuzzy
+msgid "user"
+msgstr "Usuari"
+
+#: apps/registration/models.py:219
+msgid "activation key"
+msgstr ""
+
+#: apps/registration/models.py:224
+msgid "registration profile"
+msgstr ""
+
+#: apps/registration/models.py:225
+msgid "registration profiles"
+msgstr ""
+
+#: templates/404.html:11
+msgid ""
+"There is a problem with your petition. Could you\n"
+"check the URL for errors?\n"
+"If the problem persists, please send a mail to\n"
+"<a href=\"mailto:webmaster@partidopirata.es\">webmaster@partidopirata.es</"
+"a>\n"
+msgstr ""
+
+#: templates/500.html:10
+msgid ""
+"There is a problem in the server. \n"
+"Please send a mail to\n"
+"<a href=\"mailto:webmaster@partidopirata.es\">webmaster@partidopirata.es</"
+"a>\n"
+msgstr ""
+
+#: templates/base.html:8
+msgid "TITLE"
+msgstr "¡El Partido Pirata et necessita! ¡Afilia't!"
+
+#: templates/lost.html:9
+msgid ""
+"If you don't remember your password, please enter \n"
+"your username in order to send you a mail with instructions about to \n"
+"change it."
+msgstr ""
+
+#: templates/lost_done.html:9
+msgid ""
+"Your password has been updated correctly. You can <a href=\"/\">login</a> "
+"now."
+msgstr ""
+
+#: templates/lost_edit.html:9
+msgid "You must suply your username, email and the new password."
+msgstr ""
+
+#: templates/member.html:33 templates/member/member.html:42
+msgid "Birthdate"
+msgstr "Data de naixement"
+
+#: templates/start.html:9
+msgid "START_LEFT_COLUMN_INFO"
+msgstr ""
+"Si ja ens coneixes i t'identifiques amb les nostres idees, aquest es el "
+"primer pas per convertir-te en afiliat o simpatitzant."
+
+#: templates/start.html:17
+msgid "Password (write it again)"
+msgstr "Contrasenya (escriu-la de nou)"
+
+#: templates/start.html:19
+msgid "I read and accept the <a href=\"/about/tos/\">Terms of Service</a>."
+msgstr ""
+"He llegit i estic d'acord amb els <a href=\"/about/tos/\">Termes del Servei</"
+"a>."
+
+#: templates/start.html:20
+msgid ""
+"Fill the form (all fields are required) and your account will be created. "
+"You'll recive a email with instructions about how to finish the register. If "
+"you detect any error you can contact us at"
+msgstr ""
+"Emplena el formulari (tots els camps son requerits), i el te compte serà "
+"creat. Rebràs un correu electrònic amb instruccions de com finalitzar el "
+"registre. Si detectes cap error pots comunicar-nos-el per correu electrònic a"
+
+#: templates/start.html:28
+msgid "START_CENTER_COLUMN_INFO"
+msgstr ""
+"Mantingues les teves dades al dia, participa a les votacións i un llarg "
+"etcètera."
+
+#: templates/start.html:34
+msgid ""
+"Use the link to <a href=\"/members/lost\">lost password</a> if you can't "
+"remember it."
+msgstr ""
+
+#: templates/start.html:42
+msgid "START_RIGHT_COLUMN_INFO"
+msgstr "El boca a boca funciona. Fes arribar les nostres idees a altres."
+
+#: templates/start.html:44
+msgid "Enter your name"
+msgstr "Introdueix el teu nom"
+
+#: templates/start.html:46
+msgid "Enter your friend email"
+msgstr "Introdueix el correu electrònic del teu amic"
+
+#~ msgid "Format: d/m/Y"
+#~ msgstr "Format: d/m/Y"
+
+#, fuzzy
+#~ msgid "IP Address"
+#~ msgstr "Adreça"
+
+#~ msgid "Choose your gender"
+#~ msgstr "Escull el teu sexe"

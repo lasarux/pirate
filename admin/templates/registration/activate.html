@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}Activación de la cuenta{% endblock %}
+{% block content_header %}Activación de la cuenta{% endblock %}
+{% block content %}
+{% load humanize %}
+<div class="column"></div>
+<div class="column">
+    {% if account %}
+    <img id="info_image" src="/site_media/images/shoes.png" alt="shoes">
+    <p>¡Gracias por registrarse! Ahora puede <a href="/admin/accounts/profile/">entrar</a> y participar.</p>
+    {% else %}
+    <img id="info_image" src="/site_media/images/warning.png" alt="warning">
+    <p>O su enlace de activación era incorrecto o la clave de activación
+    de su cuenta a expirado. Las claves de activación sólo son válidas 
+    para {{ expiration_days|apnumber }} días después del registro.</p>
+    <br/>
+    <p><a href="/admin/">Volver al principio.</a></p>
+    {% endif %}
+</div>
+<div class="column"></div>
+{% endblock %}
