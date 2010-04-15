@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1280"
+   height="800"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.47 r22583"
+   sodipodi:docname="pirateworld.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3686">
+      <stop
+         id="stop3688"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop3690"
+         offset="1"
+         style="stop-color:#515151;stop-opacity:0.52941179;" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3672">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop3674" />
+      <stop
+         style="stop-color:#f4f4f4;stop-opacity:0.51552796;"
+         offset="1"
+         id="stop3676" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3648">
+      <stop
+         style="stop-color:#14d6d2;stop-opacity:1;"
+         offset="0"
+         id="stop3650" />
+      <stop
+         style="stop-color:#0a5965;stop-opacity:1;"
+         offset="1"
+         id="stop3652" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective10" />
+    <inkscape:perspective
+       id="perspective3664"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3762"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective3819"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <filter
+       height="1.2346933"
+       y="-0.11734667"
+       width="1.0877664"
+       x="-0.043883197"
+       id="filter3872"
+       inkscape:collect="always"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3874"
+         stdDeviation="6.0509221"
+         inkscape:collect="always" />
+    </filter>
+    <linearGradient
+       id="linearGradient2905">
+      <stop
+         id="stop2907"
+         offset="0"
+         style="stop-color:#184374;stop-opacity:1;" />
+      <stop
+         id="stop2909"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
+    <linearGradient
+       y2="601.30963"
+       x2="2036.1702"
+       y1="428.85107"
+       x1="2036.1702"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient2903"
+       xlink:href="#linearGradient4122"
+       inkscape:collect="always" />
+    <linearGradient
+       id="linearGradient4122">
+      <stop
+         id="stop4124"
+         offset="0"
+         style="stop-color:#184374;stop-opacity:1;" />
+      <stop
+         id="stop4126"
+         offset="1"
+         style="stop-color:#000000;stop-opacity:0;" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       id="perspective2889" />
+    <inkscape:perspective
+       id="perspective10-9"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4122"
+       id="linearGradient3969"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.41034365,0,0,0.41034365,-282.64086,501.98524)"
+       x1="2036.1702"
+       y1="428.85107"
+       x2="2036.1702"
+       y2="601.30963" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4122"
+       id="linearGradient3981"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.41034365,0,0,0.41034365,-282.64086,501.98524)"
+       x1="2036.1702"
+       y1="428.85107"
+       x2="2036.1702"
+       y2="601.30963" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4122"
+       id="linearGradient3993"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.41034365,0,0,0.41034365,-282.64086,501.98524)"
+       x1="2036.1702"
+       y1="428.85107"
+       x2="2036.1702"
+       y2="601.30963" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3672"
+       id="linearGradient3669"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.9631063,0,0,0.9631063,-1684.5937,204.71991)"
+       x1="2036.1702"
+       y1="428.85107"
+       x2="2036.1702"
+       y2="601.30963" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.6275"
+     inkscape:cx="663.90438"
+     inkscape:cy="399.08357"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     width="1280px"
+     inkscape:window-width="1280"
+     inkscape:window-height="718"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-252.36218)">
+    <image
+       y="252.36218"
+       x="0"
+       id="image3764"
+       height="800"
+       width="1280"
+       xlink:href="file:///home/pedro/fiberpirateparty/artwork/europe.jpg" />
+    <g
+       style="opacity:0.4"
+       id="g3983"
+       transform="translate(-108.36653,97.211155)">
+      <path
+         transform="matrix(0.41034365,0,0,0.41034365,103.75575,615.67109)"
+         style="opacity:0.57528962;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4.32928514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter3872)"
+         d="m 1013.2185,185.16189 c -10.6084,0 -23.35151,6.36534 -28.58691,14.27965 l -48.6068,73.47823 c -5.2354,7.91432 -0.9139,14.27966 9.6945,14.27965 l 94.32511,0 11.8047,17.38798 34.8095,-17.38798 94.3251,0 c 10.6084,0 23.3515,-6.36533 28.5869,-14.27965 l 48.6068,-73.47823 c 5.2354,-7.91431 0.914,-14.27965 -9.6945,-14.27965 l -235.2644,0 z"
+         id="path3985" />
+      <path
+         id="path3987"
+         d="m 489.9958,671.63293 c -4.3425,0 -7.83498,3.49255 -7.83498,7.835 l 0,40.31627 c 0,4.34245 3.49248,7.83501 7.83498,7.835 l 38.6107,0 9.5405,9.54049 9.5405,-9.54049 38.6108,0 c 4.3424,0 7.835,-3.49255 7.835,-7.835 l 0,-40.31627 c 0,-4.34245 -3.4925,-7.835 -7.835,-7.835 l -96.3025,0 z"
+         style="fill:url(#linearGradient3993);fill-opacity:1;stroke:#ffffff;stroke-width:2.05171824;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3989"
+         y="709.01184"
+         x="496.25922"
+         style="font-size:28.96682167px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Aeon Main CE;-inkscape-font-specification:Aeon Main CE"
+         xml:space="preserve"><tspan
+           y="709.01184"
+           x="496.25922"
+           id="tspan3991"
+           sodipodi:role="line">germany</tspan></text>
+    </g>
+    <rect
+       style="opacity:1;fill:#858585;fill-opacity:0.61603373;stroke:none"
+       id="rect2816"
+       width="1282.8687"
+       height="162.5498"
+       x="0.40637374"
+       y="782.25854" />
+    <text
+       xml:space="preserve"
+       style="font-size:44.11729813px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+       x="340.70285"
+       y="756.37445"
+       id="text3590"
+       sodipodi:linespacing="125%"
+       transform="scale(0.90313335,1.1072562)"><tspan
+         sodipodi:role="line"
+         id="tspan3592"
+         x="340.70285"
+         y="756.37445">Piraten Partei</tspan></text>
+    <path
+       style="opacity:0.73828125;fill:#252525;fill-opacity:1;stroke:none"
+       d="m 0.40625,782.26843 0,162.53125 691.625,0 0,-46.9375 -32.71875,-32.75 32.71875,-32.71875 0,-50.125 -691.625,0 z"
+       id="rect4027" />
+    <g
+       id="g3825"
+       transform="translate(-4.7808765,-17.52988)">
+      <rect
+         y="733.13843"
+         x="64.205719"
+         height="295.19659"
+         width="226.96704"
+         id="rect3594"
+         style="fill:#252525;fill-opacity:1;stroke:#ffffff;stroke-width:4.62411308;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <image
+         style="stroke:none"
+         xlink:href="file:///home/pedro/fiberpirateparty/artwork/FlorianBischof.jpg"
+         width="210.17671"
+         height="280.23563"
+         id="image3666"
+         x="72.230064"
+         y="740.3717" />
+    </g>
+    <text
+       transform="scale(0.90313335,1.1072562)"
+       sodipodi:linespacing="100%"
+       id="text3678"
+       y="796.97046"
+       x="341.16617"
+       style="font-size:36.61723328px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       xml:space="preserve"><tspan
+         y="796.97046"
+         x="341.16617"
+         id="tspan3680"
+         sodipodi:role="line">Florian Bischof</tspan></text>
+    <text
+       transform="scale(0.90313335,1.1072562)"
+       sodipodi:linespacing="125%"
+       id="text3768"
+       y="831.80194"
+       x="341.21039"
+       style="font-size:33.06098175px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#89e200;fill-opacity:1;stroke:none;font-family:Arial Black;-inkscape-font-specification:'Arial Black,'"
+       xml:space="preserve"><tspan
+         y="831.80194"
+         x="341.21039"
+         id="tspan3770"
+         sodipodi:role="line">Germany</tspan></text>
+    <g
+       transform="translate(14.34263,30.278884)"
+       id="g3971"
+       style="opacity:0.4">
+      <path
+         id="path3973"
+         d="m 1013.2185,185.16189 c -10.6084,0 -23.35151,6.36534 -28.58691,14.27965 l -48.6068,73.47823 c -5.2354,7.91432 -0.9139,14.27966 9.6945,14.27965 l 94.32511,0 11.8047,17.38798 34.8095,-17.38798 94.3251,0 c 10.6084,0 23.3515,-6.36533 28.5869,-14.27965 l 48.6068,-73.47823 c 5.2354,-7.91431 0.914,-14.27965 -9.6945,-14.27965 l -235.2644,0 z"
+         style="opacity:0.57528961999999995;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4.32928513999999964;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter3872)"
+         transform="matrix(0.41034365,0,0,0.41034365,103.75575,615.67109)" />
+      <path
+         style="fill:url(#linearGradient3981);fill-opacity:1;stroke:#ffffff;stroke-width:2.05171824000000003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         d="m 489.9958,671.63293 c -4.3425,0 -7.83498,3.49255 -7.83498,7.835 l 0,40.31627 c 0,4.34245 3.49248,7.83501 7.83498,7.835 l 38.6107,0 9.5405,9.54049 9.5405,-9.54049 38.6108,0 c 4.3424,0 7.835,-3.49255 7.835,-7.835 l 0,-40.31627 c 0,-4.34245 -3.4925,-7.835 -7.835,-7.835 l -96.3025,0 z"
+         id="path3975" />
+      <text
+         xml:space="preserve"
+         style="font-size:28.96682167000000163px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Aeon Main CE;-inkscape-font-specification:Aeon Main CE"
+         x="496.25922"
+         y="709.01184"
+         id="text3977"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3979"
+           x="496.25922"
+           y="709.01184">germany</tspan></text>
+    </g>
+    <g
+       id="g3963"
+       transform="translate(-68.525896,19.123506)">
+      <path
+         transform="matrix(0.41034365,0,0,0.41034365,103.75575,615.67109)"
+         style="opacity:0.57528962;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4.32928514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter3872)"
+         d="m 1013.2185,185.16189 c -10.6084,0 -23.35151,6.36534 -28.58691,14.27965 l -48.6068,73.47823 c -5.2354,7.91432 -0.9139,14.27966 9.6945,14.27965 l 94.32511,0 11.8047,17.38798 34.8095,-17.38798 94.3251,0 c 10.6084,0 23.3515,-6.36533 28.5869,-14.27965 l 48.6068,-73.47823 c 5.2354,-7.91431 0.914,-14.27965 -9.6945,-14.27965 l -235.2644,0 z"
+         id="path3738" />
+      <path
+         id="rect3729"
+         d="m 489.9958,671.63293 c -4.3425,0 -7.83498,3.49255 -7.83498,7.835 l 0,40.31627 c 0,4.34245 3.49248,7.83501 7.83498,7.835 l 38.6107,0 9.5405,9.54049 9.5405,-9.54049 38.6108,0 c 4.3424,0 7.835,-3.49255 7.835,-7.835 l 0,-40.31627 c 0,-4.34245 -3.4925,-7.835 -7.835,-7.835 l -96.3025,0 z"
+         style="fill:url(#linearGradient3969);fill-opacity:1;stroke:#ffffff;stroke-width:2.05171824;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3734"
+         y="709.01184"
+         x="496.25922"
+         style="font-size:28.96682167px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Aeon Main CE;-inkscape-font-specification:Aeon Main CE"
+         xml:space="preserve"><tspan
+           y="709.01184"
+           x="496.25922"
+           id="tspan3736"
+           sodipodi:role="line">germany</tspan></text>
+    </g>
+    <path
+       transform="matrix(0.9631063,0,0,0.9631063,-777.69283,471.54884)"
+       style="opacity:0.57528962;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:4.32928514;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;filter:url(#filter3872)"
+       d="m 1013.2185,185.16189 c -10.6084,0 -23.35151,6.36534 -28.58691,14.27965 l -48.6068,73.47823 c -5.2354,7.91432 -0.9139,14.27966 9.6945,14.27965 l 94.32511,0 11.8047,17.38798 34.8095,-17.38798 94.3251,0 c 10.6084,0 23.3515,-6.36533 28.5869,-14.27965 l 48.6068,-73.47823 c 5.2354,-7.91431 0.914,-14.27965 -9.6945,-14.27965 l -235.2644,0 z"
+       id="path3656" />
+    <path
+       id="path3658"
+       d="m 128.84057,602.89534 c -10.19217,0 -18.38927,8.19727 -18.38927,18.38931 l 0,94.62521 c 0,10.19205 8.1971,18.38934 18.38927,18.38931 l 90.62211,0 22.39224,22.39223 22.39225,-22.39223 90.62235,0 c 10.19192,0 18.38931,-8.19726 18.38931,-18.38931 l 0,-94.62521 c 0,-10.19204 -8.19715,-18.38931 -18.38931,-18.38931 l -226.02895,0 z"
+       style="fill:url(#linearGradient3669);fill-opacity:1;stroke:#ffffff;stroke-width:4.81553125000000026;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;opacity:1;" />
+    <text
+       xml:space="preserve"
+       style="font-size:15.81499672px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Trebuchet MS;-inkscape-font-specification:Trebuchet MS"
+       x="139.94673"
+       y="646.83618"
+       id="text3995"
+       sodipodi:linespacing="100%"
+       transform="scale(0.96046431,1.0411631)"><tspan
+         sodipodi:role="line"
+         id="tspan3997"
+         x="139.94673"
+         y="646.83618">Yaay! Tack till alla! #guldmusen</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:78.47554016px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+       x="779.69922"
+       y="844.51678"
+       id="text3682"
+       sodipodi:linespacing="100%"
+       transform="scale(0.95159686,1.0508652)"><tspan
+         sodipodi:role="line"
+         id="tspan3684"
+         x="779.69922"
+         y="844.51678">2102 followers</tspan></text>
+  </g>
+</svg>
