@@ -1,0 +1,213 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, font, img,
+ins, kbd, q, s, samp, small, strike,
+strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+center, u, b, i {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     font-weight: normal;
+     font-style: normal;
+     font-size: 100%;
+     font-family: inherit;
+     vertical-align: baseline
+}
+
+html, body {
+    height:100%;
+}
+
+body {
+     line-height: 1;
+}
+
+:focus {
+     outline: 0
+}
+
+ol, ul {
+     list-style: none
+}
+
+table {
+     border-collapse: collapse;
+     border-spacing: 0
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+     content: ""
+}
+
+blockquote, q {
+     quotes: "" ""
+}
+
+input, textarea {
+     margin: 0;
+     padding: 0
+}
+
+hr {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     color: #000;
+     background-color: #000;
+     height: 1px
+}
+
+#wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#logo {
+    position:fixed;
+    right: 2%;
+    bottom: 2%;
+    background-image: url(../images/PPI-signet.png);
+    width: 102px;
+    height: 82px;
+}
+
+#map {
+	width:					8192px;
+	height:					4096px;
+	/*background-image:		url(../images/bluemarble-pirate-8192.png);*/
+	position:				relative;
+}
+
+#world_0_0 { width: 512px; height: 512px; background-image: url(../images/world_0_0.jpg); float: left; left: 0px; top: 0px; }
+#world_0_1 { width: 512px; height: 512px; background-image: url(../images/world_0_1.jpg); float: left; left: 0px; top: 512px; }
+#world_0_2 { width: 512px; height: 512px; background-image: url(../images/world_0_2.jpg); float: left; left: 0px; top: 1024px; }
+#world_0_3 { width: 512px; height: 512px; background-image: url(../images/world_0_3.jpg); float: left; left: 0px; top: 1536px; }
+#world_0_4 { width: 512px; height: 512px; background-image: url(../images/world_0_4.jpg); float: left; left: 0px; top: 2048px; }
+#world_0_5 { width: 512px; height: 512px; background-image: url(../images/world_0_5.jpg); float: left; left: 0px; top: 2560px; }
+#world_0_6 { width: 512px; height: 512px; background-image: url(../images/world_0_6.jpg); float: left; left: 0px; top: 3072px; }
+#world_0_7 { width: 512px; height: 512px; background-image: url(../images/world_0_7.jpg); float: left; left: 0px; top: 3584px; }
+#world_1_0 { width: 512px; height: 512px; background-image: url(../images/world_1_0.jpg); float: left; left: 512px; top: 0px; }
+#world_1_1 { width: 512px; height: 512px; background-image: url(../images/world_1_1.jpg); float: left; left: 512px; top: 512px; }
+#world_1_2 { width: 512px; height: 512px; background-image: url(../images/world_1_2.jpg); float: left; left: 512px; top: 1024px; }
+#world_1_3 { width: 512px; height: 512px; background-image: url(../images/world_1_3.jpg); float: left; left: 512px; top: 1536px; }
+#world_1_4 { width: 512px; height: 512px; background-image: url(../images/world_1_4.jpg); float: left; left: 512px; top: 2048px; }
+#world_1_5 { width: 512px; height: 512px; background-image: url(../images/world_1_5.jpg); float: left; left: 512px; top: 2560px; }
+#world_1_6 { width: 512px; height: 512px; background-image: url(../images/world_1_6.jpg); float: left; left: 512px; top: 3072px; }
+#world_1_7 { width: 512px; height: 512px; background-image: url(../images/world_1_7.jpg); float: left; left: 512px; top: 3584px; }
+#world_2_0 { width: 512px; height: 512px; background-image: url(../images/world_2_0.jpg); float: left; left: 1024px; top: 0px; }
+#world_2_1 { width: 512px; height: 512px; background-image: url(../images/world_2_1.jpg); float: left; left: 1024px; top: 512px; }
+#world_2_2 { width: 512px; height: 512px; background-image: url(../images/world_2_2.jpg); float: left; left: 1024px; top: 1024px; }
+#world_2_3 { width: 512px; height: 512px; background-image: url(../images/world_2_3.jpg); float: left; left: 1024px; top: 1536px; }
+#world_2_4 { width: 512px; height: 512px; background-image: url(../images/world_2_4.jpg); float: left; left: 1024px; top: 2048px; }
+#world_2_5 { width: 512px; height: 512px; background-image: url(../images/world_2_5.jpg); float: left; left: 1024px; top: 2560px; }
+#world_2_6 { width: 512px; height: 512px; background-image: url(../images/world_2_6.jpg); float: left; left: 1024px; top: 3072px; }
+#world_2_7 { width: 512px; height: 512px; background-image: url(../images/world_2_7.jpg); float: left; left: 1024px; top: 3584px; }
+#world_3_0 { width: 512px; height: 512px; background-image: url(../images/world_3_0.jpg); float: left; left: 1536px; top: 0px; }
+#world_3_1 { width: 512px; height: 512px; background-image: url(../images/world_3_1.jpg); float: left; left: 1536px; top: 512px; }
+#world_3_2 { width: 512px; height: 512px; background-image: url(../images/world_3_2.jpg); float: left; left: 1536px; top: 1024px; }
+#world_3_3 { width: 512px; height: 512px; background-image: url(../images/world_3_3.jpg); float: left; left: 1536px; top: 1536px; }
+#world_3_4 { width: 512px; height: 512px; background-image: url(../images/world_3_4.jpg); float: left; left: 1536px; top: 2048px; }
+#world_3_5 { width: 512px; height: 512px; background-image: url(../images/world_3_5.jpg); float: left; left: 1536px; top: 2560px; }
+#world_3_6 { width: 512px; height: 512px; background-image: url(../images/world_3_6.jpg); float: left; left: 1536px; top: 3072px; }
+#world_3_7 { width: 512px; height: 512px; background-image: url(../images/world_3_7.jpg); float: left; left: 1536px; top: 3584px; }
+#world_4_0 { width: 512px; height: 512px; background-image: url(../images/world_4_0.jpg); float: left; left: 2048px; top: 0px; }
+#world_4_1 { width: 512px; height: 512px; background-image: url(../images/world_4_1.jpg); float: left; left: 2048px; top: 512px; }
+#world_4_2 { width: 512px; height: 512px; background-image: url(../images/world_4_2.jpg); float: left; left: 2048px; top: 1024px; }
+#world_4_3 { width: 512px; height: 512px; background-image: url(../images/world_4_3.jpg); float: left; left: 2048px; top: 1536px; }
+#world_4_4 { width: 512px; height: 512px; background-image: url(../images/world_4_4.jpg); float: left; left: 2048px; top: 2048px; }
+#world_4_5 { width: 512px; height: 512px; background-image: url(../images/world_4_5.jpg); float: left; left: 2048px; top: 2560px; }
+#world_4_6 { width: 512px; height: 512px; background-image: url(../images/world_4_6.jpg); float: left; left: 2048px; top: 3072px; }
+#world_4_7 { width: 512px; height: 512px; background-image: url(../images/world_4_7.jpg); float: left; left: 2048px; top: 3584px; }
+#world_5_0 { width: 512px; height: 512px; background-image: url(../images/world_5_0.jpg); float: left; left: 2560px; top: 0px; }
+#world_5_1 { width: 512px; height: 512px; background-image: url(../images/world_5_1.jpg); float: left; left: 2560px; top: 512px; }
+#world_5_2 { width: 512px; height: 512px; background-image: url(../images/world_5_2.jpg); float: left; left: 2560px; top: 1024px; }
+#world_5_3 { width: 512px; height: 512px; background-image: url(../images/world_5_3.jpg); float: left; left: 2560px; top: 1536px; }
+#world_5_4 { width: 512px; height: 512px; background-image: url(../images/world_5_4.jpg); float: left; left: 2560px; top: 2048px; }
+#world_5_5 { width: 512px; height: 512px; background-image: url(../images/world_5_5.jpg); float: left; left: 2560px; top: 2560px; }
+#world_5_6 { width: 512px; height: 512px; background-image: url(../images/world_5_6.jpg); float: left; left: 2560px; top: 3072px; }
+#world_5_7 { width: 512px; height: 512px; background-image: url(../images/world_5_7.jpg); float: left; left: 2560px; top: 3584px; }
+#world_6_0 { width: 512px; height: 512px; background-image: url(../images/world_6_0.jpg); float: left; left: 3072px; top: 0px; }
+#world_6_1 { width: 512px; height: 512px; background-image: url(../images/world_6_1.jpg); float: left; left: 3072px; top: 512px; }
+#world_6_2 { width: 512px; height: 512px; background-image: url(../images/world_6_2.jpg); float: left; left: 3072px; top: 1024px; }
+#world_6_3 { width: 512px; height: 512px; background-image: url(../images/world_6_3.jpg); float: left; left: 3072px; top: 1536px; }
+#world_6_4 { width: 512px; height: 512px; background-image: url(../images/world_6_4.jpg); float: left; left: 3072px; top: 2048px; }
+#world_6_5 { width: 512px; height: 512px; background-image: url(../images/world_6_5.jpg); float: left; left: 3072px; top: 2560px; }
+#world_6_6 { width: 512px; height: 512px; background-image: url(../images/world_6_6.jpg); float: left; left: 3072px; top: 3072px; }
+#world_6_7 { width: 512px; height: 512px; background-image: url(../images/world_6_7.jpg); float: left; left: 3072px; top: 3584px; }
+#world_7_0 { width: 512px; height: 512px; background-image: url(../images/world_7_0.jpg); float: left; left: 3584px; top: 0px; }
+#world_7_1 { width: 512px; height: 512px; background-image: url(../images/world_7_1.jpg); float: left; left: 3584px; top: 512px; }
+#world_7_2 { width: 512px; height: 512px; background-image: url(../images/world_7_2.jpg); float: left; left: 3584px; top: 1024px; }
+#world_7_3 { width: 512px; height: 512px; background-image: url(../images/world_7_3.jpg); float: left; left: 3584px; top: 1536px; }
+#world_7_4 { width: 512px; height: 512px; background-image: url(../images/world_7_4.jpg); float: left; left: 3584px; top: 2048px; }
+#world_7_5 { width: 512px; height: 512px; background-image: url(../images/world_7_5.jpg); float: left; left: 3584px; top: 2560px; }
+#world_7_6 { width: 512px; height: 512px; background-image: url(../images/world_7_6.jpg); float: left; left: 3584px; top: 3072px; }
+#world_7_7 { width: 512px; height: 512px; background-image: url(../images/world_7_7.jpg); float: left; left: 3584px; top: 3584px; }
+#world_8_0 { width: 512px; height: 512px; background-image: url(../images/world_8_0.jpg); float: left; left: 4096px; top: 0px; }
+#world_8_1 { width: 512px; height: 512px; background-image: url(../images/world_8_1.jpg); float: left; left: 4096px; top: 512px; }
+#world_8_2 { width: 512px; height: 512px; background-image: url(../images/world_8_2.jpg); float: left; left: 4096px; top: 1024px; }
+#world_8_3 { width: 512px; height: 512px; background-image: url(../images/world_8_3.jpg); float: left; left: 4096px; top: 1536px; }
+#world_8_4 { width: 512px; height: 512px; background-image: url(../images/world_8_4.jpg); float: left; left: 4096px; top: 2048px; }
+#world_8_5 { width: 512px; height: 512px; background-image: url(../images/world_8_5.jpg); float: left; left: 4096px; top: 2560px; }
+#world_8_6 { width: 512px; height: 512px; background-image: url(../images/world_8_6.jpg); float: left; left: 4096px; top: 3072px; }
+#world_8_7 { width: 512px; height: 512px; background-image: url(../images/world_8_7.jpg); float: left; left: 4096px; top: 3584px; }
+#world_9_0 { width: 512px; height: 512px; background-image: url(../images/world_9_0.jpg); float: left; left: 4608px; top: 0px; }
+#world_9_1 { width: 512px; height: 512px; background-image: url(../images/world_9_1.jpg); float: left; left: 4608px; top: 512px; }
+#world_9_2 { width: 512px; height: 512px; background-image: url(../images/world_9_2.jpg); float: left; left: 4608px; top: 1024px; }
+#world_9_3 { width: 512px; height: 512px; background-image: url(../images/world_9_3.jpg); float: left; left: 4608px; top: 1536px; }
+#world_9_4 { width: 512px; height: 512px; background-image: url(../images/world_9_4.jpg); float: left; left: 4608px; top: 2048px; }
+#world_9_5 { width: 512px; height: 512px; background-image: url(../images/world_9_5.jpg); float: left; left: 4608px; top: 2560px; }
+#world_9_6 { width: 512px; height: 512px; background-image: url(../images/world_9_6.jpg); float: left; left: 4608px; top: 3072px; }
+#world_9_7 { width: 512px; height: 512px; background-image: url(../images/world_9_7.jpg); float: left; left: 4608px; top: 3584px; }
+#world_10_0 { width: 512px; height: 512px; background-image: url(../images/world_10_0.jpg); float: left; left: 5120px; top: 0px; }
+#world_10_1 { width: 512px; height: 512px; background-image: url(../images/world_10_1.jpg); float: left; left: 5120px; top: 512px; }
+#world_10_2 { width: 512px; height: 512px; background-image: url(../images/world_10_2.jpg); float: left; left: 5120px; top: 1024px; }
+#world_10_3 { width: 512px; height: 512px; background-image: url(../images/world_10_3.jpg); float: left; left: 5120px; top: 1536px; }
+#world_10_4 { width: 512px; height: 512px; background-image: url(../images/world_10_4.jpg); float: left; left: 5120px; top: 2048px; }
+#world_10_5 { width: 512px; height: 512px; background-image: url(../images/world_10_5.jpg); float: left; left: 5120px; top: 2560px; }
+#world_10_6 { width: 512px; height: 512px; background-image: url(../images/world_10_6.jpg); float: left; left: 5120px; top: 3072px; }
+#world_10_7 { width: 512px; height: 512px; background-image: url(../images/world_10_7.jpg); float: left; left: 5120px; top: 3584px; }
+#world_11_0 { width: 512px; height: 512px; background-image: url(../images/world_11_0.jpg); float: left; left: 5632px; top: 0px; }
+#world_11_1 { width: 512px; height: 512px; background-image: url(../images/world_11_1.jpg); float: left; left: 5632px; top: 512px; }
+#world_11_2 { width: 512px; height: 512px; background-image: url(../images/world_11_2.jpg); float: left; left: 5632px; top: 1024px; }
+#world_11_3 { width: 512px; height: 512px; background-image: url(../images/world_11_3.jpg); float: left; left: 5632px; top: 1536px; }
+#world_11_4 { width: 512px; height: 512px; background-image: url(../images/world_11_4.jpg); float: left; left: 5632px; top: 2048px; }
+#world_11_5 { width: 512px; height: 512px; background-image: url(../images/world_11_5.jpg); float: left; left: 5632px; top: 2560px; }
+#world_11_6 { width: 512px; height: 512px; background-image: url(../images/world_11_6.jpg); float: left; left: 5632px; top: 3072px; }
+#world_11_7 { width: 512px; height: 512px; background-image: url(../images/world_11_7.jpg); float: left; left: 5632px; top: 3584px; }
+#world_12_0 { width: 512px; height: 512px; background-image: url(../images/world_12_0.jpg); float: left; left: 6144px; top: 0px; }
+#world_12_1 { width: 512px; height: 512px; background-image: url(../images/world_12_1.jpg); float: left; left: 6144px; top: 512px; }
+#world_12_2 { width: 512px; height: 512px; background-image: url(../images/world_12_2.jpg); float: left; left: 6144px; top: 1024px; }
+#world_12_3 { width: 512px; height: 512px; background-image: url(../images/world_12_3.jpg); float: left; left: 6144px; top: 1536px; }
+#world_12_4 { width: 512px; height: 512px; background-image: url(../images/world_12_4.jpg); float: left; left: 6144px; top: 2048px; }
+#world_12_5 { width: 512px; height: 512px; background-image: url(../images/world_12_5.jpg); float: left; left: 6144px; top: 2560px; }
+#world_12_6 { width: 512px; height: 512px; background-image: url(../images/world_12_6.jpg); float: left; left: 6144px; top: 3072px; }
+#world_12_7 { width: 512px; height: 512px; background-image: url(../images/world_12_7.jpg); float: left; left: 6144px; top: 3584px; }
+#world_13_0 { width: 512px; height: 512px; background-image: url(../images/world_13_0.jpg); float: left; left: 6656px; top: 0px; }
+#world_13_1 { width: 512px; height: 512px; background-image: url(../images/world_13_1.jpg); float: left; left: 6656px; top: 512px; }
+#world_13_2 { width: 512px; height: 512px; background-image: url(../images/world_13_2.jpg); float: left; left: 6656px; top: 1024px; }
+#world_13_3 { width: 512px; height: 512px; background-image: url(../images/world_13_3.jpg); float: left; left: 6656px; top: 1536px; }
+#world_13_4 { width: 512px; height: 512px; background-image: url(../images/world_13_4.jpg); float: left; left: 6656px; top: 2048px; }
+#world_13_5 { width: 512px; height: 512px; background-image: url(../images/world_13_5.jpg); float: left; left: 6656px; top: 2560px; }
+#world_13_6 { width: 512px; height: 512px; background-image: url(../images/world_13_6.jpg); float: left; left: 6656px; top: 3072px; }
+#world_13_7 { width: 512px; height: 512px; background-image: url(../images/world_13_7.jpg); float: left; left: 6656px; top: 3584px; }
+#world_14_0 { width: 512px; height: 512px; background-image: url(../images/world_14_0.jpg); float: left; left: 7168px; top: 0px; }
+#world_14_1 { width: 512px; height: 512px; background-image: url(../images/world_14_1.jpg); float: left; left: 7168px; top: 512px; }
+#world_14_2 { width: 512px; height: 512px; background-image: url(../images/world_14_2.jpg); float: left; left: 7168px; top: 1024px; }
+#world_14_3 { width: 512px; height: 512px; background-image: url(../images/world_14_3.jpg); float: left; left: 7168px; top: 1536px; }
+#world_14_4 { width: 512px; height: 512px; background-image: url(../images/world_14_4.jpg); float: left; left: 7168px; top: 2048px; }
+#world_14_5 { width: 512px; height: 512px; background-image: url(../images/world_14_5.jpg); float: left; left: 7168px; top: 2560px; }
+#world_14_6 { width: 512px; height: 512px; background-image: url(../images/world_14_6.jpg); float: left; left: 7168px; top: 3072px; }
+#world_14_7 { width: 512px; height: 512px; background-image: url(../images/world_14_7.jpg); float: left; left: 7168px; top: 3584px; }
+#world_15_0 { width: 512px; height: 512px; background-image: url(../images/world_15_0.jpg); float: left; left: 7680px; top: 0px; }
+#world_15_1 { width: 512px; height: 512px; background-image: url(../images/world_15_1.jpg); float: left; left: 7680px; top: 512px; }
+#world_15_2 { width: 512px; height: 512px; background-image: url(../images/world_15_2.jpg); float: left; left: 7680px; top: 1024px; }
+#world_15_3 { width: 512px; height: 512px; background-image: url(../images/world_15_3.jpg); float: left; left: 7680px; top: 1536px; }
+#world_15_4 { width: 512px; height: 512px; background-image: url(../images/world_15_4.jpg); float: left; left: 7680px; top: 2048px; }
+#world_15_5 { width: 512px; height: 512px; background-image: url(../images/world_15_5.jpg); float: left; left: 7680px; top: 2560px; }
+#world_15_6 { width: 512px; height: 512px; background-image: url(../images/world_15_6.jpg); float: left; left: 7680px; top: 3072px; }
+#world_15_7 { width: 512px; height: 512px; background-image: url(../images/world_15_7.jpg); float: left; left: 7680px; top: 3584px; }
