@@ -11,8 +11,8 @@ urlpatterns = patterns('',
     # (r'^admin/', include('admin.apps.foo.urls.foo')),
 
     # Static media
-    (r'^site_media/(.*)$', 'django.views.static.serve', {'document_root': '%s' % settings.media}),
-    (r'^pub/(.*)$', 'django.views.static.serve', {'document_root': '%s' % settings.pub}),
+    (r'^media/pub/(.*)$', 'django.views.static.serve', {'document_root': '%s' % settings.pub}),
+    (r'^media/(.*)$', 'django.views.static.serve', {'document_root': '%s' % settings.media}),
     (r'^favicon.ico$', 'django.views.static.serve', {'document_root': '%s' % settings.media, 'path': "favicon.ico"}),
     # Uncomment this for admin:
     ('^admin/(.*)', admin.site.root),

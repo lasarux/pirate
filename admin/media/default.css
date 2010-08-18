@@ -14,13 +14,13 @@ input {
 }
 
 thead {
-    background: url("/site_media/images/stripe-header.png") repeat-y;
+    background: url("/media/images/stripe-header.png") repeat-y;
     text-align: center;
     height: 30px;
 }
 
 .even {
-    background: url("/site_media/images/stripe-row.png") repeat-y;
+    background: url("/media/images/stripe-row.png") repeat-y;
 }
 
 td {
@@ -86,19 +86,19 @@ text-align : justify;
 #startcenter {
     width:211px;
     padding:9em 1em 1em 1em;
-//    background: url(/site_media/images/edit.png) no-repeat;
+//    background: url(/media/images/edit.png) no-repeat;
 }
 
 #startleft {
     width:211px;
     padding:9em 1em 1em 1em;
-//    background: url(/site_media/images/register.png) no-repeat;
+//    background: url(/media/images/register.png) no-repeat;
 }
 
 #startright {
     width:211px;
     padding:9em 1em 1em 1em;
-//    background: url(/site_media/images/friends.png) no-repeat;
+//    background: url(/media/images/friends.png) no-repeat;
 }   
 
 #join {
@@ -109,14 +109,14 @@ text-align : justify;
 #history {
     width:211px;
     padding:0.5em 1em 1em 1em;
-    background: url(/site_media/images/history_es.png) no-repeat;
+    background: url(/media/images/history_es.png) no-repeat;
 }
 
 #data {
     width:211px;
     margin-top: -4px;
     padding:0.5em 1em 1em 1em;
-    background: url(/site_media/images/data_es.png) no-repeat;
+    background: url(/media/images/data_es.png) no-repeat;
 }
 
 .center {
@@ -134,7 +134,7 @@ text-align : justify;
 .address {
     width:211px;
     padding:0.5em 1em 1em 1em;
-    background: url(/site_media/images/address_es.png) no-repeat;
+    background: url(/media/images/address_es.png) no-repeat;
     overflow: hidden;
 }
 
@@ -142,20 +142,20 @@ text-align : justify;
     width:211px;
     padding:0.5em 1em 1em 1em;
     height: 96px;
-    background: url(/site_media/images/services_es.png) no-repeat;
+    background: url(/media/images/services_es.png) no-repeat;
 }
 
 .members {
     width:211px;
     padding:0.5em 1em 1em 1em;
-    background: url(/site_media/images/members_es.png) no-repeat;
+    background: url(/media/images/members_es.png) no-repeat;
     overflow: hidden;
 }
 
 #polls {
     width:211px;
     padding:0.5em 1em 1em 1em;
-    background: url(/site_media/images/polls_es.png) no-repeat;
+    background: url(/media/images/polls_es.png) no-repeat;
     overflow: hidden;
 }
 
@@ -163,14 +163,14 @@ text-align : justify;
     width:211px;
     margin-top: -4px;
     padding:0.5em 1em 1em 1em;
-    background: url(/site_media/images/payments_es.png) no-repeat;
+    background: url(/media/images/payments_es.png) no-repeat;
     overflow: hidden;
 }
 
 .contact {
     width:211px;
     padding:0.5em 1em 1em 1em;
-    background: url(/site_media/images/contact_es.png) no-repeat;
+    background: url(/media/images/contact_es.png) no-repeat;
     overflow: hidden;
 }   
 
