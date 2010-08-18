@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-06-05 23:24+0200\n"
+"POT-Creation-Date: 2010-08-18 21:35+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -174,7 +175,7 @@ msgstr "Recorda incluir ambdues cares del DNI"
 #: apps/members/models.py:236 apps/poll/models.py:21 apps/poll/models.py:38
 #: apps/poll/models.py:51 apps/poll/models.py:58 apps/poll/models.py:63
 #: apps/poll/models.py:74 apps/poll/models.py:79
-#: templates/member/dashboard.html:119
+#: templates/member/dashboard.html:118
 msgid "Date"
 msgstr "Data"
 
@@ -184,21 +185,21 @@ msgid "Status"
 msgstr "Estat"
 
 #: apps/members/models.py:124 apps/members/models.py:146
-#: templates/member/dashboard.html:127
+#: templates/member/dashboard.html:126
 msgid "Comment"
 msgstr "Comentari"
 
 #: apps/members/models.py:140 apps/members/models.py:202
-#: templates/dashboard.html:91 templates/member/dashboard.html:91
-#: templates/member/dashboard.html:121
+#: templates/dashboard.html:91 templates/member/dashboard.html:90
+#: templates/member/dashboard.html:120
 msgid "Type"
 msgstr "Tipus"
 
-#: apps/members/models.py:142 templates/member/dashboard.html:123
+#: apps/members/models.py:142 templates/member/dashboard.html:122
 msgid "Method"
 msgstr "Mètode"
 
-#: apps/members/models.py:144 templates/member/dashboard.html:125
+#: apps/members/models.py:144 templates/member/dashboard.html:124
 msgid "Amount"
 msgstr "Quantitat"
 
@@ -272,7 +273,7 @@ msgstr "CP"
 
 #: apps/members/models.py:192 apps/members/models.py:205
 #: templates/dashboard.html:45 templates/dashboard.html.py:95
-#: templates/member/dashboard.html:44 templates/member/dashboard.html.py:95
+#: templates/member/dashboard.html:44 templates/member/dashboard.html.py:94
 msgid "Is default?"
 msgstr "¿Per defecte?"
 
@@ -281,7 +282,7 @@ msgid "Member"
 msgstr "Membre"
 
 #: apps/members/models.py:204 templates/dashboard.html:93
-#: templates/member/dashboard.html:93
+#: templates/member/dashboard.html:92
 msgid "Account"
 msgstr "Compte"
 
@@ -443,7 +444,7 @@ msgstr ""
 msgid "registration profiles"
 msgstr ""
 
-#: templates/404.html:11
+#: templates/404.html:10
 msgid ""
 "There is a problem with your petition. Could you\n"
 "check the URL for errors?\n"
@@ -473,8 +474,8 @@ msgstr ""
 
 #: templates/lost_done.html:9
 msgid ""
-"Your password has been updated correctly. You can <a href=\"/\">login</a> "
-"now."
+"Your password has been updated correctly. You can <a href=\"/admin/\">login</"
+"a> now."
 msgstr ""
 
 #: templates/lost_edit.html:9
@@ -496,7 +497,9 @@ msgid "Password (write it again)"
 msgstr "Contrasenya (escriu-la de nou)"
 
 #: templates/start.html:19
-msgid "I read and accept the <a href=\"/about/tos/\">Terms of Service</a>."
+#, fuzzy
+msgid ""
+"I read and accept the <a href=\"/admin/about/tos/\">Terms of Service</a>."
 msgstr ""
 "He llegit i estic d'acord amb els <a href=\"/about/tos/\">Termes del Servei</"
 "a>."
@@ -519,8 +522,8 @@ msgstr ""
 
 #: templates/start.html:34
 msgid ""
-"Use the link to <a href=\"/members/lost\">lost password</a> if you can't "
-"remember it."
+"Use the link to <a href=\"/admin/members/lost\">lost password</a> if you "
+"can't remember it."
 msgstr ""
 
 #: templates/start.html:42

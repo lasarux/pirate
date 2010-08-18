@@ -7,7 +7,7 @@
     <div id="startleft" 
          style="background: url(/site_media/images/register_{{ LANGUAGE_CODE }}.png) no-repeat;">
         <p>{% trans "START_LEFT_COLUMN_INFO" %}</p>
-        <form method="post" action="/admin/accounts/register/">
+        <form method="post" action="/accounts/register/">
         <p class="info">{% trans "Username" %}{% if form_register.username.errors %} <span class="error">{{ form_register.username.errors|join:", " }}</span>{% endif %}</p>
         <p>{{ form_register.username }}</p>
         <p class="info">{% trans "Email" %}{% if form_register.email.errors %} <span class="error">{{ form_register.email.errors|join:", " }}</span>{% endif %}</p>
@@ -26,7 +26,7 @@
     <div id="startcenter"
          style="background: url(/site_media/images/edit_{{ LANGUAGE_CODE }}.png) no-repeat;">
     <p>{% trans "START_CENTER_COLUMN_INFO" %}</p>
-    <form action="/admin/" method="post">
+    <form action="." method="post">{% csrf_token %}
     <p class="info">{% trans "User" %}</p>
     <p><input type="text" name="username" /></p>
     <p class="info">{% trans "Password" %}</p>
@@ -40,7 +40,7 @@
     <div id="startright"
          style="background: url(/site_media/images/friends_{{ LANGUAGE_CODE }}.png) no-repeat;">
     <p>{% trans "START_RIGHT_COLUMN_INFO" %}</p>
-    <form action="/admin/invitation/" method="post">
+    <form action="/admin/invitation/" method="post">{% csrf_token %}
     <p class="info">{% trans "Enter your name" %}</p>
     <p>{{ form_invitation.name }}</p>
     <p class="info">{% trans "Enter your friend email" %}</p>
