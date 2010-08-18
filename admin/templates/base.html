@@ -17,9 +17,10 @@
 <div id="frame">
     <div id="contentheader">
         <div id="i18n">
-            <form action="/admin/i18n/setlang/" method="post">
-            <p><input name="next" type="hidden" value="." />
-        <input style="float: right;" type="image" src="/site_media/images/languages.png" />
+            <form action="/i18n/setlang/" method="post">{% csrf_token %}
+            <input name="next" type="hidden" value="." />
+            <p>
+            <input style="float: right;" type="image" src="/site_media/images/languages.png" />
             <select style="margin-top: 10px; float: right;" name="language">
             {% for lang in LANGUAGES %}
             <option value="{{ lang.0 }}">{{ lang.1 }}</option>

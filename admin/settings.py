@@ -8,8 +8,8 @@ pub = os.path.join(dir, 'pub')
 media = os.path.join(dir, 'media')
 templates = os.path.join(dir, 'templates')
 
-DEBUG = False 
-#DEBUG = True
+#DEBUG = False 
+DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 DEBUG_PROPAGATE_EXCEPTIONS = False
 
